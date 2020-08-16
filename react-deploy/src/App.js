@@ -5,6 +5,9 @@ import comp from "./assets/comp.png";
 import brain from "./assets/brain.png";
 import triviac from "./assets/triviac.jpg";
 import github from "./assets/github.png";
+import linkedin from "./assets/linkedin.png";
+import gmail from "./assets/gmail.png";
+import amp from "./assets/amp.png";
 import { Container, Row, Image, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,59 +16,118 @@ class App extends Component {
     return (
       <body className="App">
         <Container fluid>
-          <Row className="p-3">
+          <Row>
             <Col xs={4}>
-              <Image src={head} roundedCircle height="200px" />
+              <Row className="pb-5">
+                <Image src={head} roundedCircle height="200px" />
+              </Row>
+              {/* <Row> */}
+
+              {/* <Row> */}
+              <Col>
+                <a href="https://github.com/anya-ji">
+                  <Image
+                    src={github}
+                    roundedCircle
+                    height="50px"
+                    onClick="https://github.com/anya-ji"
+                  />
+                </a>
+              </Col>
+              <Col>
+                <p className="letter">{`Github`}</p>
+              </Col>
+              {/* </Row> */}
+
+              <Col>
+                <a href="https://www.linkedin.com/in/anya-ji/">
+                  <Image
+                    src={linkedin}
+                    roundedCircle
+                    height="50px"
+                    onClick="https://www.linkedin.com/in/anya-ji/"
+                  />
+                </a>
+              </Col>
+              <Col>
+                <p className="letter">{`LinkedIn`}</p>
+              </Col>
+
+              <Col>
+                <a href="mailto:anyaj0109@gmail.com">
+                  <Image
+                    src={gmail}
+                    roundedCircle
+                    height="50px"
+                    onClick="mailto:anyaj0109@gmail.com"
+                  />
+                </a>
+              </Col>
+              <Col>
+                <p className="letter">{`Email`}</p>
+              </Col>
+
+              {/* </Row> */}
             </Col>
-            <Col>
-              <h3 className="letter">
-                hey
-                <br />
-                something
-              </h3>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={{ span: 2, offset: 3 }}>
-              <Image src={comp} roundedCircle height="150px" />
-            </Col>
-            <Col>
-              <h3 className="letter" style={{ fontSize: 20 }}>
-                {`• Check out a trivia game on iOS >>`}
-              </h3>
-            </Col>
-            <Col>
-              <a href="https://apps.apple.com/app/id1515983515">
-                <Image
-                  src={triviac}
-                  roundedCircle
-                  height="100px"
-                  onClick="https://apps.apple.com/app/id1515983515"
-                />
-              </a>
-            </Col>
-            <Col>
-              <h3 className="letter" style={{ fontSize: 20 }}>
-                {`• My github`}
-              </h3>
-            </Col>
-            <Col>
-              <a href="https://github.com/anya-ji">
-                <Image
-                  src={github}
-                  roundedCircle
-                  height="100px"
-                  onClick="https://github.com/anya-ji"
-                />
-              </a>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={{ span: 3, offset: 3 }}>
-              <Image src={brain} roundedCircle height="150px" />
-            </Col>
-            <Col>
-              <h3 className="letter">psych stuff</h3>
+
+            <Col xs={6}>
+              <Row>
+                <h3 className="letter">
+                  Hey, I'm Anya!
+                  <br />
+                  <br />
+                  I'm currently a sophomore at Cornell University, majoring in
+                  computer science and psychology.
+                  <br />
+                  <br /> And this is still under construction lol
+                  <br />
+                  <br /> .
+                  <br />
+                  <br /> .
+                  <br />
+                  <br /> .
+                </h3>
+              </Row>
+
+              <Row className='pt-4'>
+                <Col xs={4}>
+                  <Image src={comp} roundedCircle height="100px" />
+                </Col>
+
+                <Col>
+                  <a href="https://apps.apple.com/app/id1515983515">
+                    <Image
+                      src={triviac}
+                      roundedCircle
+                      height="90px"
+                      onClick="https://apps.apple.com/app/id1515983515"
+                    />
+                  </a>
+                  <Col>
+                    <p className="letter">{`Check out a trivia game on iOS`}</p>
+                  </Col>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col xs={4}>
+                  <Image src={brain} roundedCircle height="90px" />
+                </Col>
+
+                <Col>
+                  <a href="https://apps.apple.com/app/id1515983515">
+                    <Image
+                      src={amp}
+                      roundedCircle
+                      height="85px"
+                      onClick="https://apps.apple.com/app/id1515983515"
+                    />
+                  </a>
+                  <Col>
+                    <p className="letter">{`Research assistant at Attention, Memory, and Perception Lab`}</p>
+                  </Col>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
