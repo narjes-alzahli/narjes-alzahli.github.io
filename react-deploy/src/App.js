@@ -115,12 +115,12 @@ class App extends Component {
                 </Col>
 
                 <Col>
-                  <a href="https://apps.apple.com/app/id1515983515">
+                  <a href="https://amp-lab.psych.cornell.edu/">
                     <Image
                       src={amp}
                       roundedCircle
                       height="85px"
-                      onClick="https://apps.apple.com/app/id1515983515"
+                      onClick="https://amp-lab.psych.cornell.edu/"
                     />
                   </a>
                   <Col>
