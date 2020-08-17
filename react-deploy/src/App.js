@@ -14,30 +14,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
   render() {
     return (
-      <body className="App">
-        <Container fluid>
+        <Container fluid className="App">
           <Row>
             <Col xs={4}>
               <Row className="pb-5">
                 <Image src={head} roundedCircle height="200px" />
               </Row>
-              {/* <Row> */}
 
-              {/* <Row> */}
               <Col>
                 <a href="https://github.com/anya-ji">
                   <Image
                     src={github}
                     roundedCircle
                     height="50px"
-                    onClick="https://github.com/anya-ji"
                   />
                 </a>
               </Col>
               <Col>
                 <p className="letter">{`Github`}</p>
               </Col>
-              {/* </Row> */}
 
               <Col>
                 <a href="https://www.linkedin.com/in/anya-ji/">
@@ -45,7 +40,6 @@ class App extends Component {
                     src={linkedin}
                     roundedCircle
                     height="50px"
-                    onClick="https://www.linkedin.com/in/anya-ji/"
                   />
                 </a>
               </Col>
@@ -59,15 +53,12 @@ class App extends Component {
                     src={gmail}
                     roundedCircle
                     height="50px"
-                    onClick="mailto:anyaj0109@gmail.com"
                   />
                 </a>
               </Col>
               <Col>
                 <p className="letter">{`Email`}</p>
               </Col>
-
-              {/* </Row> */}
             </Col>
 
             <Col xs={6}>
@@ -89,7 +80,7 @@ class App extends Component {
                 </h3>
               </Row>
 
-              <Row className='pt-4'>
+              <Row className="pt-4">
                 <Col xs={4}>
                   <Image src={comp} roundedCircle height="100px" />
                 </Col>
@@ -100,7 +91,6 @@ class App extends Component {
                       src={triviac}
                       roundedCircle
                       height="90px"
-                      onClick="https://apps.apple.com/app/id1515983515"
                     />
                   </a>
                   <Col>
@@ -120,7 +110,6 @@ class App extends Component {
                       src={amp}
                       roundedCircle
                       height="85px"
-                      onClick="https://amp-lab.psych.cornell.edu/"
                     />
                   </a>
                   <Col>
@@ -131,7 +120,6 @@ class App extends Component {
             </Col>
           </Row>
         </Container>
-      </body>
     );
   }
 }

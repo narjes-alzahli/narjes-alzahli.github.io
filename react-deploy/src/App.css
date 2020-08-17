@@ -7,7 +7,7 @@
   align-items: center;
   background-color: #27292a;
   padding: 15%;
-  /* background-color: #faeac5; */
+  overflow: auto;
 }
 
 .letter {
@@ -16,3 +16,8 @@
   text-align: left;
   font-size: medium;
 }
+
+html,
+body {
+   height: 100%;
+ }
