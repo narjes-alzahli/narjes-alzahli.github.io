@@ -8,6 +8,8 @@ import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
 import gmail from "./assets/gmail.png";
 import amp from "./assets/amp.png";
+import coming from "./assets/coming.jpg";
+import aclab from "./assets/aclab.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Link } from "react-router-dom";
@@ -60,8 +62,12 @@ const Home = () => (
             <br />
             <br /> Currently I'm developing a few iOS and web apps.
             <br /> I also work as research assistant at psychology labs.
-            <br /> On campus, I'm a student Ambassor at College of Arts &
+            <br /> On campus, I'm a student ambassador at College of Arts &
             Sciences.
+            <br />
+            <br /> I've been dancing ballet and playing piano since 7.
+            <br /> I love exploring languages - I can also speak Mandarin and
+            German and took a year of American Sign Language.
           </p>
         </Row>
 
@@ -117,25 +123,41 @@ const CompSci = () => (
           <Image src={triviac} roundedCircle height="90px" />
         </a>
         <Col>
-          <p className="letter">{`Triviac: a trivia game generator`}</p>
+          <p className="title">TRIVIAC</p>
+          <p className="letter">
+            An iOS app for generating, playing, and archiving single- or
+            multi-player trivia games. <br />
+            ⬅︎ Click on the icon to download from App Store!
+          </p>
         </Col>
       </Row>
 
       <Row className="pt-4">
-        <a href="https://apps.apple.com/app/id1515983515">
-          <Image src={triviac} roundedCircle height="90px" />
+        <a href="">
+          <Image src={coming} roundedCircle height="90px" width="90px" />
         </a>
         <Col>
-          <p className="letter">{`Fitness App(in progress)`}</p>
+          <p className="title">FITNESS APP (in progress)</p>
+          <p className="letter">
+            Workout with friends! - an iOS app integrating workouts and social
+            media. Work primarily as front-end developer on the social media
+            section and organize data on Firestore.
+          </p>
         </Col>
       </Row>
 
       <Row className="pt-4">
-        <a href="https://apps.apple.com/app/id1515983515">
-          <Image src={triviac} roundedCircle height="90px" />
+        <a href="">
+          <Image src={coming} roundedCircle height="90px" />
         </a>
         <Col>
-          <p className="letter">{`Mercury (in progress)`}</p>
+          <p className="title">MERCURY (in progress)</p>
+          <p className="letter">
+            Frustrated by unorganized online office hours? Try this all-in-one
+            platform built with React for better online office hours
+            experiences! Supporting separate roles for students and TAs,
+            queuing, and video/audio conferencing.
+          </p>
         </Col>
       </Row>
     </Col>
@@ -157,19 +179,41 @@ const Psych = () => (
 
       <Row className="pt-4">
         <a href="https://amp-lab.psych.cornell.edu/">
-          <Image src={amp} roundedCircle height="85px" />
+          <Image src={amp} roundedCircle height="85px" width="85px" />
         </a>
         <Col>
-          <p className="letter">{`Research assistant at Attention, Memory, and Perception Lab`}</p>
+          <p className="title">
+            Research Assistant at Attention, Memory, and Perception Lab
+          </p>
+          <p className="letter">
+            Developed computer program for the experiment with PsychoPy
+            (Python).
+            <br />
+            Work with graduate student Karen and Professor Swallow on event
+            segmentation.
+            <br />
+            Attend weekly lab meetings and discuss weekly papers.
+          </p>
         </Col>
       </Row>
 
       <Row className="pt-4">
-        <a href="https://amp-lab.psych.cornell.edu/">
-          <Image src={amp} roundedCircle height="85px" />
+        <a href="http://aclab.human.cornell.edu/">
+          <Image src={aclab} roundedCircle height="85px" width="85px" />
         </a>
         <Col>
-          <p className="letter">{`Research assistant at Affect and Cognition Lab`}</p>
+          <p className="title">
+            Research Assistant at Affect and Cognition Lab (Oct.2019 - Feb.2020)
+          </p>
+          <p className="letter">
+            Completed Human Subjects Research (IRB) Training.
+            <br />
+            Worked with graduate student Saeedeh studying the correlation
+            between time perception and orienting response.
+            <br />
+            Prepared ECG electrodes, proctored experiments with student subjects
+            and entered data on computer.
+          </p>
         </Col>
       </Row>
     </Col>
