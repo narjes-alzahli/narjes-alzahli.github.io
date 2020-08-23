@@ -65,9 +65,10 @@ const Home = () => (
             <br /> On campus, I'm a student ambassador at College of Arts &
             Sciences.
             <br />
-            <br /> I've been dancing ballet and playing piano since 7.
-            <br /> I love exploring languages - I can also speak Mandarin and
-            German and took a year of American Sign Language.
+            <br /> In my spare time, I enjoy dancing ballet and playing the
+            piano.
+            <br /> Besides, I love exploring languages - I can also speak
+            Mandarin and German and took a year of American Sign Language.
           </p>
         </Row>
 
@@ -183,7 +184,7 @@ const Psych = () => (
         </a>
         <Col>
           <p className="title">
-            Research Assistant at Attention, Memory, and Perception Lab
+            Research Assistant at Attention, Memory & Perception Lab
           </p>
           <p className="letter">
             Developed computer program for the experiment with PsychoPy
@@ -203,7 +204,7 @@ const Psych = () => (
         </a>
         <Col>
           <p className="title">
-            Research Assistant at Affect and Cognition Lab (Oct.2019 - Feb.2020)
+            Research Assistant at Affect & Cognition Lab (Oct.2019 - Feb.2020)
           </p>
           <p className="letter">
             Completed Human Subjects Research (IRB) Training.
