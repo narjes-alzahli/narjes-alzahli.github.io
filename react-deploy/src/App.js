@@ -10,9 +10,13 @@ import gmail from "./assets/gmail.png";
 import amp from "./assets/amp.png";
 import coming from "./assets/coming.jpg";
 import aclab from "./assets/aclab.png";
+import mercury from "./assets/mercury.png";
+import fitnux from "./assets/fitnux.png";
+import ocaml from "./assets/ocaml.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Link } from "react-router-dom";
+import ReactPlayer from "react-player";
 
 const Home = () => (
   <Container fluid className="App">
@@ -28,7 +32,7 @@ const Home = () => (
           </a>
         </Col>
         <Col>
-          <p className="letter">{`Github`}</p>
+          <p className="letter">{`GitHub`}</p>
         </Col>
 
         <Col>
@@ -53,15 +57,16 @@ const Home = () => (
       <Col xs={6}>
         <Row>
           <p className="letter">
-            Hey, I'm Anya!
+            Hey, I'm Anya Ji!
             <br /> I'm a sophomore at Cornell University, majoring in <br />
             computer science and psychology.
             <br />
-            <br /> My main interests include software engineering,
-            human-computer interaction, and cognitive science.
+            <br /> My main interests include software engineering, natural
+            language processing, and cognitive science.
             <br />
             <br /> Currently I'm developing a few iOS and web apps.
-            <br /> I also work as research assistant at psychology labs.
+            <br /> I also work as course consultant for object-oriented
+            programming and research assistant at psychology labs.
             <br /> On campus, I'm a student ambassador at College of Arts &
             Sciences.
             <br />
@@ -120,44 +125,96 @@ const CompSci = () => (
       </Row>
 
       <Row className="pt-4">
-        <a href="https://apps.apple.com/app/id1515983515">
-          <Image src={triviac} roundedCircle height="90px" />
-        </a>
+        <Image src={triviac} roundedCircle height="90px" />
+
         <Col>
-          <p className="title">TRIVIAC</p>
+          <p className="title">TRIVIAC - TRIVIA GAMES</p>
           <p className="letter">
             An iOS app for generating, playing, and archiving single- or
             multi-player trivia games. <br />
-            ⬅︎ Click on the icon to download from App Store!
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://github.com/anya-ji/triviac"
+            >
+              {"GitHub"}
+            </Button>
+            <Button
+              className="mt-4 letter"
+              variant="outline-light"
+              href="https://apps.apple.com/app/id1515983515"
+            >
+              {"App Store"}
+            </Button>
           </p>
         </Col>
       </Row>
+      <Row className="player-wrapper justify-content-center">
+        <ReactPlayer
+          className="react-player"
+          url="video/triviac_demo.mov"
+          controls={false}
+          loop
+          playing
+        />
+      </Row>
 
       <Row className="pt-4">
-        <a href="">
-          <Image src={coming} roundedCircle height="90px" width="90px" />
-        </a>
+        <Image src={fitnux} roundedCircle height="90px" width="90px" />
+
         <Col>
-          <p className="title">FITNESS APP (in progress)</p>
+          <p className="title">FITNUX - FITNESS APP (in progress)</p>
           <p className="letter">
             Workout with friends! - an iOS app integrating workouts and social
-            media. Work primarily as front-end developer on the social media
-            section and organize data on Firestore.
+            media. <br />
+            Work primarily as front-end developer on the social media section
+            and organize data on Firestore.
           </p>
         </Col>
       </Row>
 
       <Row className="pt-4">
-        <a href="">
-          <Image src={coming} roundedCircle height="90px" />
-        </a>
+        <Image src={mercury} roundedCircle height="90px" />
+
         <Col>
-          <p className="title">MERCURY (in progress)</p>
+          <p className="title">MERCURY - ONLINE OFFICE HOURS </p>
           <p className="letter">
             Frustrated by unorganized online office hours? Try this all-in-one
             platform built with React for better online office hours
-            experiences! Supporting separate roles for students and TAs,
-            queuing, and video/audio conferencing.
+            experiences! Supports separate roles for students and TAs, queuing,
+            and video/audio conferencing.
+          </p>
+        </Col>
+        
+      </Row>
+      <Row className="player-wrapper justify-content-center">
+          <ReactPlayer
+            className="react-player"
+            url="video/mercury_demo.mp4"
+            controls={true} 
+          />
+        </Row>
+
+      <Row className="pt-4">
+        <Image src={ocaml} roundedCircle height="90px" />
+        <Col>
+          <p className="title">ANAGRAMS</p>
+          <p className="letter">
+            A multiplayer terminal game in OCaml for customizable anagrams
+            games, with different difficulty levels and various game rules.
+            <br />
+            Integrated Anagramica API to validate created words.
+            <br />
+            Final project for functional programming (CS 3110). Collaborated
+            with Bahar Tehranipoor and Ashley Yu.
+            <br />
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://github.coecis.cornell.edu/bt277/cs3110-proj"
+            >
+              {"GitHub"}
+            </Button>
           </p>
         </Col>
       </Row>
@@ -179,12 +236,11 @@ const Psych = () => (
       </Row>
 
       <Row className="pt-4">
-        <a href="https://amp-lab.psych.cornell.edu/">
-          <Image src={amp} roundedCircle height="85px" width="85px" />
-        </a>
+        <Image src={amp} roundedCircle height="85px" width="85px" />
         <Col>
           <p className="title">
-            Research Assistant at Attention, Memory & Perception Lab
+            Research Assistant at Attention, Memory & Perception Lab (Feb.2020 -
+            Present)
           </p>
           <p className="letter">
             Developed computer program for the experiment with PsychoPy
@@ -194,14 +250,27 @@ const Psych = () => (
             segmentation.
             <br />
             Attend weekly lab meetings and discuss weekly papers.
+            <br />
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://github.com/anya-ji/event-coding"
+            >
+              {"GitHub/Event-coding"}
+            </Button>
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://amp-lab.psych.cornell.edu/"
+            >
+              {"AMP Lab"}
+            </Button>
           </p>
         </Col>
       </Row>
 
       <Row className="pt-4">
-        <a href="http://aclab.human.cornell.edu/">
-          <Image src={aclab} roundedCircle height="85px" width="85px" />
-        </a>
+        <Image src={aclab} roundedCircle height="85px" width="85px" />
         <Col>
           <p className="title">
             Research Assistant at Affect & Cognition Lab (Oct.2019 - Feb.2020)
@@ -214,6 +283,14 @@ const Psych = () => (
             <br />
             Prepared ECG electrodes, proctored experiments with student subjects
             and entered data on computer.
+            <br />
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="http://aclab.human.cornell.edu/"
+            >
+              {"AC Lab"}
+            </Button>
           </p>
         </Col>
       </Row>
