@@ -185,15 +185,14 @@ const CompSci = () => (
             and video/audio conferencing.
           </p>
         </Col>
-        
       </Row>
       <Row className="player-wrapper justify-content-center">
-          <ReactPlayer
-            className="react-player"
-            url="video/mercury_demo.mp4"
-            controls={true} 
-          />
-        </Row>
+        <ReactPlayer
+          className="react-player"
+          url="video/mercury_demo.mp4"
+          controls={true}
+        />
+      </Row>
 
       <Row className="pt-4">
         <Image src={ocaml} roundedCircle height="90px" />
@@ -217,6 +216,15 @@ const CompSci = () => (
             </Button>
           </p>
         </Col>
+      </Row>
+      <Row className="player-wrapper justify-content-center">
+        <ReactPlayer
+          className="react-player"
+          url="video/anagrams_demo.mp4"
+          controls={false}
+          loop
+          playing
+        />
       </Row>
     </Col>
   </Container>
@@ -246,8 +254,8 @@ const Psych = () => (
             Developed computer program for the experiment with PsychoPy
             (Python).
             <br />
-            Work with graduate student Karen and Professor Swallow on event
-            segmentation.
+            Work with graduate student Karen Sasmita and Professor Khena Swallow
+            on event segmentation.
             <br />
             Attend weekly lab meetings and discuss weekly papers.
             <br />
@@ -278,8 +286,8 @@ const Psych = () => (
           <p className="letter">
             Completed Human Subjects Research (IRB) Training.
             <br />
-            Worked with graduate student Saeedeh studying the correlation
-            between time perception and orienting response.
+            Worked with graduate student Saeedeh Sadeghi studying the
+            correlation between time perception and orienting response.
             <br />
             Prepared ECG electrodes, proctored experiments with student subjects
             and entered data on computer.
