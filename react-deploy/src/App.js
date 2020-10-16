@@ -13,6 +13,7 @@ import aclab from "./assets/aclab.png";
 import mercury from "./assets/mercury.png";
 import fitnux from "./assets/fitnux.png";
 import ocaml from "./assets/ocaml.png";
+import psichi from "./assets/psichi.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Link } from "react-router-dom";
@@ -64,11 +65,14 @@ const Home = () => (
             <br /> My main interests include software engineering, natural
             language processing, and cognitive science.
             <br />
-            <br /> Currently I'm developing a few iOS and web apps.
+            <br /> I've been developing a few iOS and web apps.
             <br /> I also work as course consultant for object-oriented
             programming and research assistant at psychology labs.
-            <br /> On campus, I'm a student ambassador at College of Arts &
-            Sciences.
+            <br /> On campus, I'm a software developer at Engineering World
+            Health,
+            <br /> a student ambassador at College of Arts & Sciences, and a
+            member
+            <br /> of Phi Chi, the International Honors Society in Psychology.
             <br />
             <br /> In my spare time, I enjoy dancing ballet and playing the
             piano.
@@ -241,6 +245,27 @@ const Psych = () => (
             </Button>
           }
         </Link>
+      </Row>
+
+      <Row className="pt-4">
+        <Image src={psichi} roundedCircle height="85px" width="85px" />
+        <Col>
+          <p className="title">
+            Member of Phi Chi, the International Honors Society in Psychology
+            (Oct.2020 - Present)
+          </p>
+          <p className="letter">
+            Attend grad school workshops and social networking events in the field of psychology.
+            <br />
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://www.instagram.com/psi_chi_cornell/?hl=en"
+            >
+              {"Psi Chi Cornell"}
+            </Button>
+          </p>
+        </Col>
       </Row>
 
       <Row className="pt-4">
