@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.63cc46f5.chunk.css",
-    "main.js": "/static/js/main.c00ea1b8.chunk.js",
-    "main.js.map": "/static/js/main.c00ea1b8.chunk.js.map",
+    "main.js": "/static/js/main.70fd3d73.chunk.js",
+    "main.js.map": "/static/js/main.70fd3d73.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5a7750ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.5a7750ca.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.33550727.chunk.js": "/static/js/2.33550727.chunk.js",
-    "static/js/2.33550727.chunk.js.map": "/static/js/2.33550727.chunk.js.map",
+    "static/js/2.9224d12c.chunk.js": "/static/js/2.9224d12c.chunk.js",
+    "static/js/2.9224d12c.chunk.js.map": "/static/js/2.9224d12c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7ab46165055c53fec0b02f81bcbdfad3.js": "/precache-manifest.7ab46165055c53fec0b02f81bcbdfad3.js",
+    "precache-manifest.5625a617c5ae04ec502aaf18966febaf.js": "/precache-manifest.5625a617c5ae04ec502aaf18966febaf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
     "static/css/main.63cc46f5.chunk.css.map": "/static/css/main.63cc46f5.chunk.css.map",
-    "static/js/2.33550727.chunk.js.LICENSE.txt": "/static/js/2.33550727.chunk.js.LICENSE.txt",
+    "static/js/2.9224d12c.chunk.js.LICENSE.txt": "/static/js/2.9224d12c.chunk.js.LICENSE.txt",
     "static/media/aclab.png": "/static/media/aclab.d34277ca.png",
     "static/media/amp.png": "/static/media/amp.ac3a1eed.png",
     "static/media/brain.png": "/static/media/brain.7ab4091b.png",
@@ -24,13 +24,14 @@
     "static/media/head.jpg": "/static/media/head.d6dc675f.jpg",
     "static/media/mercury.png": "/static/media/mercury.ce9ab81d.png",
     "static/media/ocaml.png": "/static/media/ocaml.f099f885.png",
+    "static/media/psichi.png": "/static/media/psichi.80710c34.png",
     "static/media/triviac.jpg": "/static/media/triviac.d3dfa1e3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a7750ca.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.33550727.chunk.js",
+    "static/js/2.9224d12c.chunk.js",
     "static/css/main.63cc46f5.chunk.css",
-    "static/js/main.c00ea1b8.chunk.js"
+    "static/js/main.70fd3d73.chunk.js"
   ]
 }
