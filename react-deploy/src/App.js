@@ -14,6 +14,7 @@ import mercury from "./assets/mercury.png";
 import fitnux from "./assets/fitnux.png";
 import ocaml from "./assets/ocaml.png";
 import psichi from "./assets/psichi.png";
+import women from "./assets/women.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Link } from "react-router-dom";
@@ -129,7 +130,7 @@ const CompSci = () => (
       </Row>
 
       <Row className="pt-4">
-        <Image src={triviac} roundedCircle height="90px" />
+        <Image src={triviac} roundedCircle height="150px" />
 
         <Col>
           <p className="title">TRIVIAC - TRIVIA GAMES</p>
@@ -163,22 +164,10 @@ const CompSci = () => (
         />
       </Row>
 
-      <Row className="pt-4">
-        <Image src={fitnux} roundedCircle height="90px" width="90px" />
-
-        <Col>
-          <p className="title">FITNUX - FITNESS APP (in progress)</p>
-          <p className="letter">
-            Workout with friends! - an iOS app integrating workouts and social
-            media. <br />
-            Work primarily as front-end developer on the social media section
-            and organize data on Firestore.
-          </p>
-        </Col>
-      </Row>
+      <br />
 
       <Row className="pt-4">
-        <Image src={mercury} roundedCircle height="90px" />
+        <Image src={mercury} roundedCircle height="150px" />
 
         <Col>
           <p className="title">MERCURY - ONLINE OFFICE HOURS </p>
@@ -190,6 +179,7 @@ const CompSci = () => (
           </p>
         </Col>
       </Row>
+      <br />
       <Row className="player-wrapper justify-content-center">
         <ReactPlayer
           className="react-player"
@@ -198,8 +188,46 @@ const CompSci = () => (
         />
       </Row>
 
+      <br />
+
       <Row className="pt-4">
-        <Image src={ocaml} roundedCircle height="90px" />
+        <Image src={women} roundedCircle height="150px" />
+
+        <Col>
+          <p className="title">HEALTH FRIEND</p>
+          <p className="letter">
+            A tablet game to help women in low-resource areas in India to learn
+            about their own bodies and menstrual health, partnered with Barefoot
+            College in India.
+            <br />
+            Work on the software subteam of Engineering World Health at Cornell
+            University.
+            <br />
+            Use Kivy in Python to build the front end and Firebase for the
+            backend.
+            <br />
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://github.com/Cornell-Engineering-World-Health/womens-health-game"
+            >
+              {"GitHub"}
+            </Button>
+            <Button
+              className="mt-4 mr-4 letter"
+              variant="outline-light"
+              href="https://ewh.engineering.cornell.edu/about"
+            >
+              {"Cornell Engineering World Health"}
+            </Button>
+          </p>
+        </Col>
+      </Row>
+
+      <br />
+
+      <Row className="pt-4">
+        <Image src={ocaml} roundedCircle height="150px" />
         <Col>
           <p className="title">ANAGRAMS</p>
           <p className="letter">
@@ -230,6 +258,22 @@ const CompSci = () => (
           playing
         />
       </Row>
+
+      <br />
+
+      <Row className="pt-4">
+        <Image src={fitnux} roundedCircle height="150px" width="150px" />
+
+        <Col>
+          <p className="title">FITNUX - FITNESS APP</p>
+          <p className="letter">
+            Workout with friends! - an iOS app integrating workouts and social
+            media. <br />
+            Work primarily as front-end developer on the social media section
+            and organize data on Firestore.
+          </p>
+        </Col>
+      </Row>
     </Col>
   </Container>
 );
@@ -255,7 +299,8 @@ const Psych = () => (
             (Oct.2020 - Present)
           </p>
           <p className="letter">
-            Attend grad school workshops and social networking events in the field of psychology.
+            Attend grad school workshops and social networking events in the
+            field of psychology.
             <br />
             <Button
               className="mt-4 mr-4 letter"
