@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7df6b5067e7066935559212c6dbc86d",
+    "revision": "9e3d60c537d1074fa52a5a52aaa40f9c",
     "url": "/index.html"
   },
   {
-    "revision": "dd1ed2a1728b54a272e0",
+    "revision": "f17ac778caef103976d5",
     "url": "/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "85f4773284c99690a691",
+    "revision": "9e0acb8d464b8a20ea7e",
     "url": "/static/css/main.63cc46f5.chunk.css"
   },
   {
-    "revision": "dd1ed2a1728b54a272e0",
-    "url": "/static/js/2.9224d12c.chunk.js"
+    "revision": "f17ac778caef103976d5",
+    "url": "/static/js/2.6922d825.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.9224d12c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6922d825.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85f4773284c99690a691",
-    "url": "/static/js/main.70fd3d73.chunk.js"
+    "revision": "9e0acb8d464b8a20ea7e",
+    "url": "/static/js/main.23fe31c3.chunk.js"
   },
   {
     "revision": "53ff9637c311bd424e1b",
@@ -74,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3dfa1e3e14474d51fe907b1f696bed9",
     "url": "/static/media/triviac.d3dfa1e3.jpg"
+  },
+  {
+    "revision": "95b5047908a50c6d6c3a49db19a1b0e6",
+    "url": "/static/media/women.95b50479.png"
   }
 ]);
