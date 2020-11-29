@@ -292,7 +292,7 @@ const Psych = () => (
       </Row>
 
       <Row className="pt-4">
-        <Image src={psichi} roundedCircle height="85px" width="85px" />
+        <Image src={psichi} roundedCircle height="150px" width="150px" />
         <Col>
           <p className="title">
             Member of Phi Chi, the International Honors Society in Psychology
@@ -314,7 +314,7 @@ const Psych = () => (
       </Row>
 
       <Row className="pt-4">
-        <Image src={amp} roundedCircle height="85px" width="85px" />
+        <Image src={amp} roundedCircle height="150px" width="150px" />
         <Col>
           <p className="title">
             Research Assistant at Attention, Memory & Perception Lab (Feb.2020 -
@@ -348,7 +348,7 @@ const Psych = () => (
       </Row>
 
       <Row className="pt-4">
-        <Image src={aclab} roundedCircle height="85px" width="85px" />
+        <Image src={aclab} roundedCircle height="150px" width="150px" />
         <Col>
           <p className="title">
             Research Assistant at Affect & Cognition Lab (Oct.2019 - Feb.2020)
