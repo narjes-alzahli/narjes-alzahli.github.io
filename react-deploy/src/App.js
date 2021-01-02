@@ -88,6 +88,7 @@ class App extends Component {
           <Row className="justify-content-md-center">
             <Button
               className="m-4 letter click"
+              style={{ textAlign: "center" }}
               variant="outline-light"
               onClick={() => {
                 this.setState((state) => ({ content: 1 }));
@@ -102,6 +103,7 @@ class App extends Component {
             </Button>
             <Button
               className="m-4 letter click"
+              style={{ textAlign: "center" }}
               variant="outline-light"
               onClick={() => {
                 this.setState((state) => ({ content: 2 }));
@@ -112,6 +114,7 @@ class App extends Component {
             </Button>
             <Button
               className="m-4 letter click"
+              style={{ textAlign: "center" }}
               variant="outline-light"
               onClick={() => {
                 this.setState((state) => ({ content: 3 }));
