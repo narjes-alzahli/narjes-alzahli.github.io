@@ -277,19 +277,20 @@ class Content extends Component {
                 (Feb.2020 - Present)
               </p>
               <p className="letter">
-                Work under Professor Khena Swallow on event segmentation
+                Work under Professor Khena Swallow on event segmentation.
                 <br /> <br />
                 Developed a computer program for the experiment with PsychoPy
                 that lets the subject segment and label video clips when a
                 change in action or goals is perceived and collects segmentation
-                timestamps, to study how people perceive actions and goals
+                timestamps, to study how people perceive actions and goals.
                 <br /> <br />
                 Analyzed recall error types and semantic similarity among
                 sentences, nouns, and verbs on a subset of free recall data from
-                an event segmentation task
+                an event segmentation task.
                 <br /> <br />
                 Attend weekly lab meetings with grad students and professor and
-                discuss papers on attention, memory, and perception
+                discuss papers on attention, memory, and perception.
+                <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
@@ -323,6 +324,7 @@ class Content extends Component {
                 <br /> <br />
                 Prepared ECG electrodes, proctored experiments with student
                 subjects and entered data on computer.
+                <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
