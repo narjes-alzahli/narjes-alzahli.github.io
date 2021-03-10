@@ -52,7 +52,7 @@ class App extends Component {
             <p>
               <br />
               Hello there! I'm Anya Ji :)
-              <br /> I major in computer science and psychology at Cornell
+              <br /> I major in computer science & psychology at Cornell
               University,
               <br />
               and I'm interested in software development & cognitive science.
@@ -99,7 +99,7 @@ class App extends Component {
                 src={about}
                 height="110px"
               />
-              <p>Bio</p>
+              <p>About</p>
             </Button>
             <Button
               className="m-4 letter click"

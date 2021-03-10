@@ -11,6 +11,8 @@ import psichi from "./assets/psichi.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactPlayer from "react-player";
+import booksmart from "./assets/booksmart.png";
+import booksmart_demo from "./assets/booksmart_demo.png";
 
 class Content extends Component {
   bio() {
@@ -19,7 +21,7 @@ class Content extends Component {
         <Col xs={6}>
           <p className="title hidden" style={{ textAlign: "left" }}>
             <br />
-            <br /> >>> WHY BOTH? (the lengthy version)
+            <br /> {">>> WHY BOTH?"}
             <br />
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
@@ -37,28 +39,29 @@ class Content extends Component {
             <br />
             Additionally, I had a lot of fun making my ideas into actual
             applications - from online office hours platform to menstrual health
-            game and more. Currently, I've been focusing on iOS and web apps. I
-            mostly work with UIKit/SwiftUI/ReactJS for frontend and
-            Firebase/Firestore/SQL for backend. I'm looking forward to learning
-            more about full-stack software development and creating more
-            impactful projects!
-            <br />
+            game and more. As an aspiring full-stack developer, currently I've
+            been focusing on iOS and web apps. I mostly work with
+            UIKit/SwiftUI/ReactJS for frontend and Firebase/Firestore/SQL for
+            backend. I'm looking forward to learning more about software
+            development and creating more impactful projects!
+            {/* <br />
             <br />
             -- In a nutshell, I'm still figuring out exactly what to do with
             them in the future, but here's the TLDR: I love both fields so much
-            that I just had to major in both!
+            that I just had to major in both! */}
           </p>
 
           <br />
 
           <p className="title hidden" style={{ textAlign: "left" }}>
             <br />
-            >>> ON CAMPUS
+            {">>> ON CAMPUS"}
             <br />
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            On campus, I work as course consultant for object-oriented
-            programming and research assistant at psychology labs.
+            On campus, I work as teaching assistant for Object-Oriented
+            Programming in Java and research assistant at Attention, Memory, and
+            Perception Lab.
             <br />
             <br />
             I'm also a software developer at Engineering World Health, student
@@ -70,7 +73,7 @@ class Content extends Component {
 
           <p className="title hidden" style={{ textAlign: "left" }}>
             <br />
-            >>> HOBBIES
+            {">>> HOBBIES"}
             <br />
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
@@ -99,6 +102,8 @@ class Content extends Component {
               <p className="letter">
                 An iOS app for generating, playing, and archiving single- or
                 multi-player trivia games. <br />
+                Built with UIKit, Firebase, and OpenTriviaDatabase.
+                <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
@@ -138,6 +143,12 @@ class Content extends Component {
                 all-in-one platform built with React for better online office
                 hours experiences! Supports separate roles for students and TAs,
                 queuing, and video/audio conferencing.
+                <br />
+                Designed mock-ups on Figma and implemented UI components with
+                SemanticUI, worked with Google OAuth for user login and web
+                sockets to signal joining/leaving calls and broadcast messages,
+                and made API calls with Axios to update the server with current
+                users.
               </p>
             </Col>
           </Row>
@@ -174,6 +185,13 @@ class Content extends Component {
                   href="https://github.com/Cornell-Engineering-World-Health/womens-health-game"
                 >
                   {"GitHub"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href=" https://play.google.com/store/apps/details?id=org.cornellewh.healthfriend"
+                >
+                  {"Google Play Store"}
                 </Button>
                 <Button
                   className="mt-4 mr-4 letter"
@@ -222,7 +240,7 @@ class Content extends Component {
           </Row>
 
           <br />
-
+          {/* 
           <Row className="pt-4">
             <Image src={fitnux} roundedCircle height="150px" width="150px" />
 
@@ -235,6 +253,38 @@ class Content extends Component {
                 section and organize data on Firestore.
               </p>
             </Col>
+          </Row> */}
+
+          <Row className="pt-4">
+            <Image src={booksmart} roundedCircle height="150px" width="150px" />
+
+            <Col>
+              <p className="title">BOOKSMART - BOOK EXCHANGE</p>
+              <p className="letter">
+                An iOS app for selling and purchasing second-hand textbooks on
+                campus. <br />
+                Lead a team of 6 with a designer and developers and work on both
+                iOS and backend.
+                <br />
+                Use UIKit to create informative yet easy-to-navigate UI; support
+                real-time messaging with Firestore; create efficient relational
+                database models of user and book information with SQLite3; store
+                images on Amazon S3, and deploy the database using Docker and
+                Heroku.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.coecis.cornell.edu/bt277/cs3110-proj"
+                >
+                  {"GitHub"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+          <br />
+          <Row className="player-wrapper justify-content-center">
+            <Image src={booksmart_demo} height="500px" />
           </Row>
         </Col>
       </Container>
@@ -246,29 +296,6 @@ class Content extends Component {
       <Container fluid className="App">
         <Col xs={6}>
           <Row className="pt-4">
-            <Image src={psichi} roundedCircle height="150px" width="150px" />
-            <Col>
-              <p className="title">
-                Member of Phi Chi, the International Honors Society in
-                Psychology <br />
-                (Oct.2020 - Present)
-              </p>
-              <p className="letter">
-                Attend grad school workshops and social networking events in the
-                field of psychology.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://www.instagram.com/psi_chi_cornell/?hl=en"
-                >
-                  {"Psi Chi Cornell"}
-                </Button>
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="pt-4">
             <Image src={amp} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
@@ -278,6 +305,9 @@ class Content extends Component {
               </p>
               <p className="letter">
                 Work under Professor Khena Swallow on event segmentation.
+                <br /> <br />
+                Currently leading a research on event segmentation and racial
+                prejudice.
                 <br /> <br />
                 Developed a computer program for the experiment with PsychoPy
                 that lets the subject segment and label video clips when a
@@ -304,6 +334,29 @@ class Content extends Component {
                   href="https://amp-lab.psych.cornell.edu/"
                 >
                   {"AMP Lab"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Image src={psichi} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                Member of Phi Chi, the International Honors Society in
+                Psychology <br />
+                (Oct.2020 - Present)
+              </p>
+              <p className="letter">
+                Attend grad school workshops and social networking events in the
+                field of psychology.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://www.instagram.com/psi_chi_cornell/?hl=en"
+                >
+                  {"Psi Chi Cornell"}
                 </Button>
               </p>
             </Col>
