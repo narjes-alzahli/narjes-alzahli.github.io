@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a5c0a12c.chunk.css",
-    "main.js": "/static/js/main.8e3c454b.chunk.js",
-    "main.js.map": "/static/js/main.8e3c454b.chunk.js.map",
+    "main.js": "/static/js/main.a9efb9dd.chunk.js",
+    "main.js.map": "/static/js/main.a9efb9dd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5a7750ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.5a7750ca.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.15fda67e.chunk.js": "/static/js/2.15fda67e.chunk.js",
-    "static/js/2.15fda67e.chunk.js.map": "/static/js/2.15fda67e.chunk.js.map",
+    "static/js/2.48f2111a.chunk.js": "/static/js/2.48f2111a.chunk.js",
+    "static/js/2.48f2111a.chunk.js.map": "/static/js/2.48f2111a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.68d41e3db2c32b80b094865f0e4005f0.js": "/precache-manifest.68d41e3db2c32b80b094865f0e4005f0.js",
+    "precache-manifest.aa58ba8221f2eec4ec35edfb80590acf.js": "/precache-manifest.aa58ba8221f2eec4ec35edfb80590acf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
     "static/css/main.a5c0a12c.chunk.css.map": "/static/css/main.a5c0a12c.chunk.css.map",
-    "static/js/2.15fda67e.chunk.js.LICENSE.txt": "/static/js/2.15fda67e.chunk.js.LICENSE.txt",
+    "static/js/2.48f2111a.chunk.js.LICENSE.txt": "/static/js/2.48f2111a.chunk.js.LICENSE.txt",
     "static/media/aclab.png": "/static/media/aclab.d34277ca.png",
     "static/media/amp.png": "/static/media/amp.ac3a1eed.png",
     "static/media/booksmart.png": "/static/media/booksmart.80dda293.png",
@@ -26,16 +26,20 @@
     "static/media/gmail.png": "/static/media/gmail.1835e162.png",
     "static/media/head.jpg": "/static/media/head.d6dc675f.jpg",
     "static/media/mercury.png": "/static/media/mercury.ce9ab81d.png",
+    "static/media/music.jpeg": "/static/media/music.bfe1264f.jpeg",
     "static/media/ocaml.png": "/static/media/ocaml.f099f885.png",
     "static/media/psichi.png": "/static/media/psichi.80710c34.png",
+    "static/media/quolesomeness.png": "/static/media/quolesomeness.85d79cc9.png",
+    "static/media/tangram.svg": "/static/media/tangram.47a05fd7.svg",
     "static/media/triviac.jpg": "/static/media/triviac.d3dfa1e3.jpg",
+    "static/media/wholesome.png": "/static/media/wholesome.b6b5c14c.png",
     "static/media/women.png": "/static/media/women.95b50479.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5a7750ca.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.15fda67e.chunk.js",
+    "static/js/2.48f2111a.chunk.js",
     "static/css/main.a5c0a12c.chunk.css",
-    "static/js/main.8e3c454b.chunk.js"
+    "static/js/main.a9efb9dd.chunk.js"
   ]
 }
