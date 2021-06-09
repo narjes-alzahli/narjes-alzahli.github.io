@@ -161,7 +161,7 @@ class Content extends Component {
             <Image src={wholesome} height="150px" width="150px" />
             <Col>
               <p className="title">
-                QUOLESOMENESS - WHOLESOME QUOTES EXTRACTOR
+                QUOLESOMENESS - WHOLESOME QUOTES FINDER
               </p>
               <p className="letter">
                 An information retrieval system to find personalized wholesome
@@ -410,7 +410,7 @@ class Content extends Component {
                 <br />
                 <br />
                 Research project for PSYCH3160: Auditory Perception, The Music
-                Lab
+                Lab.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -427,7 +427,7 @@ class Content extends Component {
             <Image src={psichi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Member of Phi Chi, the International Honors Society in
+                Member @ Phi Chi, the International Honors Society in
                 Psychology (Oct.2020 - Present)
               </p>
               <p className="letter">
