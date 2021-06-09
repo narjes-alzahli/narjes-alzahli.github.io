@@ -6,8 +6,6 @@ import brain from "./assets/brain.png";
 import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
 import gmail from "./assets/gmail.png";
-
-
 import about from "./assets/cat-about.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,20 +16,20 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      content: 0,
+      content: 1,
     };
   }
 
   componentDidUpdate() {
     window.scrollTo({
-      top: 150,
+      top: 500,
       behavior: "smooth",
     });
   }
 
   render() {
     return (
-      <Container fluid className="App" style={{ padding: "5%" }}>
+      <Container fluid className="App" style={{ padding: "1%" }}>
         <Col>
           <Row className="justify-content-md-center">
             <Image
@@ -51,11 +49,9 @@ class App extends Component {
           >
             <p>
               <br />
-              Hello there! I'm Anya Ji :)
-              <br /> I major in computer science & psychology at Cornell
-              University,
-              <br />
-              and I'm interested in software development & cognitive science.
+              Hello! I'm Anya Ji :)
+              <br /> I major in computer science & psychology @ Cornell
+              University.
             </p>
           </Row>
 
@@ -76,7 +72,7 @@ class App extends Component {
                 height="50px"
               />
             </a>
-            <a href="mailto:anyaj0109@gmail.com">
+            <a href="mailto:aj592@cornell.edu">
               <Image
                 className="m-3 click"
                 src={gmail}

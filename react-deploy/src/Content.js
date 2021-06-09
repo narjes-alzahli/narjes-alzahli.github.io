@@ -13,77 +13,60 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ReactPlayer from "react-player";
 import booksmart from "./assets/booksmart.png";
 import booksmart_demo from "./assets/booksmart_demo.png";
+import wholesome from "./assets/wholesome.png";
+import quolesomeness from "./assets/quolesomeness.png";
+import tangram from "./assets/tangram.svg";
+import music from "./assets/music.jpeg";
 
 class Content extends Component {
   bio() {
     return (
       <Container fluid className="App">
         <Col xs={6}>
-          <p className="title hidden" style={{ textAlign: "left" }}>
-            <br />
-            <br /> {">>> WHY BOTH?"}
-            <br />
-          </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            I’ve always been asked: why computer science and psychology?
+            <br />
+            I'm curious about human cognition and language. I aspire to explore
+            fields such as machine learning, NLP, and human-computer
+            interaction.
             <br />
             <br />
-            I'm interested in cognitive science, which is an interdisciplinary
-            field that integrates knowledge in computer science, psychology,
-            linguistics, philosophy, etc. I'm curious about human language and
-            the mechanisms for cognitive processes, as well as how to simulate
-            human responses using machine learning techniques. I believe having
-            a strong background in both computer science and psychology can give
-            me a deeper insight into cognitive science.
-            <br />
-            <br />
-            Additionally, I had a lot of fun making my ideas into actual
-            applications - from online office hours platform to menstrual health
-            game and more. As an aspiring full-stack developer, currently I've
-            been focusing on iOS and web apps. I mostly work with
-            UIKit/SwiftUI/ReactJS for frontend and Firebase/Firestore/SQL for
-            backend. I'm looking forward to learning more about software
-            development and creating more impactful projects!
-            {/* <br />
-            <br />
-            -- In a nutshell, I'm still figuring out exactly what to do with
-            them in the future, but here's the TLDR: I love both fields so much
-            that I just had to major in both! */}
+            Additionally, I'm a full-stack software developer, mainly developing
+            iOS and web apps. I'm most familiar with UIKit/SwiftUI/ReactJS for
+            frontend and Firebase/Firestore/SQL for backend.
           </p>
-
-          <br />
 
           <p className="title hidden" style={{ textAlign: "left" }}>
-            <br />
-            {">>> ON CAMPUS"}
-            <br />
+            {"Currently:"}
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            On campus, I work as teaching assistant for Object-Oriented
-            Programming in Java and research assistant at Attention, Memory, and
-            Perception Lab.
+            - teaching assistant @ CS 2110: Object-Oriented Programming in Java
             <br />
+            - research assistant @ Language, Interaction, and Learning Lab (with
+            Prof.Yoav Artzi)
             <br />
-            I'm also a software developer at Engineering World Health, student
-            ambassador at College of Arts & Sciences, and member of Phi Chi, the
-            International Honors Society in Psychology.
+            - software developer @ Cornell Engineering World Health
+            <br />
           </p>
-
-          <br />
 
           <p className="title hidden" style={{ textAlign: "left" }}>
-            <br />
-            {">>> HOBBIES"}
-            <br />
+            {"In the past:"}
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            In my spare time, I enjoy dancing ballet and playing the piano,
-            which I've been doing since childhood.
+            - research assistant @ Attention, Memory, and Perception Lab (with
+            Prof.Khena Swallow)
+            <br />
+          </p>
+
+          <p className="title hidden" style={{ textAlign: "left" }}>
+            {"Also:"}
+          </p>
+          <p className="letter hidden" style={{ textAlign: "left" }}>
+            - student ambassador @ College of Arts & Sciences
+            <br />
+            - member @ Phi Chi, the International Honors Society in Psychology
             <br />
             <br />
-            Besides, I love exploring languages - I can speak Mandarin fluently,
-            learned German for 7 years, and took a year of American Sign
-            Language in college.
+            [Last updated: Jun.2021]
           </p>
         </Col>
       </Container>
@@ -93,7 +76,7 @@ class Content extends Component {
   comp() {
     return (
       <Container fluid className="App">
-        <Col xs={6}>
+        <Col xs={8}>
           <Row className="pt-4">
             <Image src={triviac} roundedCircle height="150px" />
 
@@ -102,6 +85,7 @@ class Content extends Component {
               <p className="letter">
                 An iOS app for generating, playing, and archiving single- or
                 multi-player trivia games. <br />
+                <br />
                 Built with UIKit, Firebase, and OpenTriviaDatabase.
                 <br />
                 <Button
@@ -139,16 +123,26 @@ class Content extends Component {
             <Col>
               <p className="title">MERCURY - ONLINE OFFICE HOURS </p>
               <p className="letter">
-                Frustrated by unorganized online office hours? Try this
-                all-in-one platform built with React for better online office
-                hours experiences! Supports separate roles for students and TAs,
-                queuing, and video/audio conferencing.
+                All-in-one platform for better online office hours experiences!
+                Supports separate roles for students and TAs, queuing, and
+                video/audio conferencing.
                 <br />
+                <br />
+                Built with ReactJS and PostgreSQL.
+                {/* <br />
                 Designed mock-ups on Figma and implemented UI components with
                 SemanticUI, worked with Google OAuth for user login and web
                 sockets to signal joining/leaving calls and broadcast messages,
                 and made API calls with Axios to update the server with current
-                users.
+                users. */}
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.com/MercuryOH/mercury"
+                >
+                  {"GitHub"}
+                </Button>
               </p>
             </Col>
           </Row>
@@ -164,6 +158,78 @@ class Content extends Component {
           <br />
 
           <Row className="pt-4">
+            <Image src={wholesome} height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                QUOLESOMENESS - WHOLESOME QUOTES EXTRACTOR
+              </p>
+              <p className="letter">
+                An information retrieval system to find personalized wholesome
+                quotes based on categories, emotion, and your input text,
+                integrating the Latent Semantic Indexing (LSI) Model, sentiment
+                analysis, Wordnet word embeddings, pointwise mutual information
+                (PMI) for tags merging, etc.
+                <br />
+                <br />
+                Built with ReactJS, Python (IR system), and Heroku.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.com/anya-ji/quolesomeness"
+                >
+                  {"GitHub"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://quolesome-ness-4300.herokuapp.com/"
+                >
+                  {"Quolesomeness App"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+          <br />
+          <Row className="player-wrapper justify-content-center">
+            <Image src={quolesomeness} height="400px" />
+          </Row>
+
+          <br />
+
+          <Row className="pt-4">
+            <Image src={tangram} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">TANGRAM - ANNOTATION INTERFACE</p>
+              <p className="letter">
+                Interface for selecting and annotating tangram puzzle pieces
+                that collects descriptions from MTurk workers for NLP research
+                at Language, Interaction, and Learning Lab.
+                <br />
+                <br />
+                Built with Javascript, HTML/CSS, and Firebase.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.com/anya-ji/tangram"
+                >
+                  {"GitHub"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://tangram-c997f.web.app/"
+                >
+                  {"Demo"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="pt-4">
             <Image src={women} roundedCircle height="150px" />
 
             <Col>
@@ -172,12 +238,13 @@ class Content extends Component {
                 A tablet game to help women in low-resource areas in India to
                 learn about their own bodies and menstrual health, partnered
                 with Barefoot College in India.
-                <br />
+                {/* <br />
                 Work on the software subteam of Engineering World Health at
                 Cornell University.
+                <br /> */}
                 <br />
-                Use Kivy in Python to build the front end and Firebase for the
-                backend.
+                <br />
+                Built with Kivy in Python and Firebase.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -213,11 +280,14 @@ class Content extends Component {
               <p className="letter">
                 A multiplayer terminal game in OCaml for customizable anagrams
                 games, with different difficulty levels and various game rules.
-                <br />
+                {/* <br />
                 Integrated Anagramica API to validate created words.
                 <br />
                 Final project for functional programming (CS 3110). Collaborated
-                with Bahar Tehranipoor and Ashley Yu.
+                with Bahar Tehranipoor and Ashley Yu. */}
+                <br />
+                <br />
+                Built with OCaml.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -240,30 +310,19 @@ class Content extends Component {
           </Row>
 
           <br />
-          {/* 
-          <Row className="pt-4">
-            <Image src={fitnux} roundedCircle height="150px" width="150px" />
-
-            <Col>
-              <p className="title">FITNUX - FITNESS APP</p>
-              <p className="letter">
-                Workout with friends! - an iOS app integrating workouts and
-                social media. <br />
-                Work primarily as front-end developer on the social media
-                section and organize data on Firestore.
-              </p>
-            </Col>
-          </Row> */}
 
           <Row className="pt-4">
             <Image src={booksmart} roundedCircle height="150px" width="150px" />
-
             <Col>
               <p className="title">BOOKSMART - BOOK EXCHANGE</p>
               <p className="letter">
                 An iOS app for selling and purchasing second-hand textbooks on
-                campus. <br />
-                Lead a team of 6 with a designer and developers and work on both
+                campus.
+                <br />
+                <br />
+                Built with UIKit, Firestore, SQLite3, Amazon S3, and Heroku.
+                <br />
+                {/* Lead a team of 6 with a designer and developers and work on both
                 iOS and backend.
                 <br />
                 Use UIKit to create informative yet easy-to-navigate UI; support
@@ -271,7 +330,7 @@ class Content extends Component {
                 database models of user and book information with SQLite3; store
                 images on Amazon S3, and deploy the database using Docker and
                 Heroku.
-                <br />
+                <br /> */}
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
@@ -294,32 +353,31 @@ class Content extends Component {
   psych() {
     return (
       <Container fluid className="App">
-        <Col xs={6}>
+        <Col xs={8}>
           <Row className="pt-4">
             <Image src={amp} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Research Assistant at Attention, Memory & Perception Lab
-                <br />
-                (Feb.2020 - Present)
+                Research Assistant @ Attention, Memory & Perception Lab
+                (Feb.2020 - May.2021)
               </p>
               <p className="letter">
                 Work under Professor Khena Swallow on event segmentation.
                 <br /> <br />
-                Currently leading a research on event segmentation and racial
-                prejudice.
+                (Spring 2021)
+                <br /> Led a research on event segmentation and racial
+                prejudice. Programmed the experiment hosted on Pavlovia.
                 <br /> <br />
-                Developed a computer program for the experiment with PsychoPy
-                that lets the subject segment and label video clips when a
-                change in action or goals is perceived and collects segmentation
-                timestamps, to study how people perceive actions and goals.
-                <br /> <br />
+                (Spring 2020 - Fall 2020)
+                <br /> Developed a computer program for the experiment with
+                PsychoPy that lets the subject segment and label video clips
+                when a change in action or goals is perceived and collects
+                segmentation timestamps, to study how people perceive actions
+                and goals.
+                <br />
                 Analyzed recall error types and semantic similarity among
                 sentences, nouns, and verbs on a subset of free recall data from
                 an event segmentation task.
-                <br /> <br />
-                Attend weekly lab meetings with grad students and professor and
-                discuss papers on attention, memory, and perception.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -340,12 +398,37 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
+            <Image src={music} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                Background Music, Time Perception, and Memory (Spring 2021)
+              </p>
+              <p className="letter">
+                Does background music affect people's time perception of video
+                clips? What roles do music, familiarity, and preference play in
+                time perception and event recall?
+                <br />
+                <br />
+                Research project for PSYCH3160: Auditory Perception, The Music
+                Lab
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://docs.google.com/presentation/d/1qM5ApQ8qEnmUDLm1Sg-nUZkpN1lf9YSpV0egLZGXhIQ/edit?usp=sharing"
+                >
+                  {"Presentation"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
             <Image src={psichi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
                 Member of Phi Chi, the International Honors Society in
-                Psychology <br />
-                (Oct.2020 - Present)
+                Psychology (Oct.2020 - Present)
               </p>
               <p className="letter">
                 Attend grad school workshops and social networking events in the
@@ -366,8 +449,8 @@ class Content extends Component {
             <Image src={aclab} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Research Assistant at Affect & Cognition Lab <br />
-                (Oct.2019 - Feb.2020)
+                Research Assistant @ Affect & Cognition Lab (Oct.2019 -
+                Feb.2020)
               </p>
               <p className="letter">
                 Completed Human Subjects Research (IRB) Training.
