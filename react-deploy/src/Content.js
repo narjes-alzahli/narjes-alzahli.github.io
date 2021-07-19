@@ -160,9 +160,7 @@ class Content extends Component {
           <Row className="pt-4">
             <Image src={wholesome} height="150px" width="150px" />
             <Col>
-              <p className="title">
-                QUOLESOMENESS - WHOLESOME QUOTES FINDER
-              </p>
+              <p className="title">QUOLESOMENESS - WHOLESOME QUOTES FINDER</p>
               <p className="letter">
                 An information retrieval system to find personalized wholesome
                 quotes based on categories, emotion, and your input text,
@@ -200,14 +198,15 @@ class Content extends Component {
           <Row className="pt-4">
             <Image src={tangram} roundedCircle height="150px" width="150px" />
             <Col>
-              <p className="title">TANGRAM - ANNOTATION INTERFACE</p>
+              <p className="title">TANGRAM PROJECT</p>
               <p className="letter">
                 Interface for selecting and annotating tangram puzzle pieces
-                that collects descriptions from MTurk workers for NLP research
-                at Language, Interaction, and Learning Lab.
+                that collects descriptions from MTurk workers & data
+                visualization dashboard for NLP research at Language,
+                Interaction, and Learning Lab.
                 <br />
                 <br />
-                Built with Javascript, HTML/CSS, and Firebase.
+                Built with Javascript, HTML/CSS, ReactJS and Firebase.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -219,9 +218,16 @@ class Content extends Component {
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://tangram-c997f.web.app/"
+                  href="https://tangram-online.web.app/"
                 >
-                  {"Demo"}
+                  {"Annotation Interface"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://tangram-dashboard.vercel.app/"
+                >
+                  {"Data Dashboard"}
                 </Button>
               </p>
             </Col>
@@ -427,8 +433,8 @@ class Content extends Component {
             <Image src={psichi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Member @ Phi Chi, the International Honors Society in
-                Psychology (Oct.2020 - Present)
+                Member @ Phi Chi, the International Honors Society in Psychology
+                (Oct.2020 - Present)
               </p>
               <p className="letter">
                 Attend grad school workshops and social networking events in the
