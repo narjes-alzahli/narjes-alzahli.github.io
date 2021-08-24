@@ -208,13 +208,13 @@ class Content extends Component {
                 <br />
                 Built with Javascript, HTML/CSS, ReactJS and Firebase.
                 <br />
-                <Button
+                {/* <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://github.com/anya-ji/tangram"
                 >
                   {"GitHub"}
-                </Button>
+                </Button> */}
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
@@ -222,13 +222,13 @@ class Content extends Component {
                 >
                   {"Annotation Interface"}
                 </Button>
-                <Button
+                {/* <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://tangram-dashboard.vercel.app/"
                 >
                   {"Data Dashboard"}
-                </Button>
+                </Button> */}
               </p>
             </Col>
           </Row>
