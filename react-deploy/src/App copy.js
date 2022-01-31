@@ -73,7 +73,7 @@ const Home = () => (
             Health,
             <br /> a student ambassador at College of Arts & Sciences, and a
             member
-            <br /> of Phi Chi, the International Honors Society in Psychology.
+            <br /> of Psi Chi, the International Honors Society in Psychology.
             <br />
             <br /> In my spare time, I enjoy dancing ballet and playing the
             piano.
@@ -295,7 +295,7 @@ const Psych = () => (
         <Image src={psichi} roundedCircle height="150px" width="150px" />
         <Col>
           <p className="title">
-            Member of Phi Chi, the International Honors Society in Psychology
+            Member of Psi Chi, the International Honors Society in Psychology
             (Oct.2020 - Present)
           </p>
           <p className="letter">

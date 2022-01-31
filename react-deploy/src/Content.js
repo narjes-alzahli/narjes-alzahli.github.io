@@ -63,7 +63,7 @@ class Content extends Component {
           <p className="letter hidden" style={{ textAlign: "left" }}>
             - student ambassador @ College of Arts & Sciences
             <br />
-            - member @ Phi Chi, the International Honors Society in Psychology
+            - member @ Psi Chi, the International Honors Society in Psychology
             <br />
             <br />
             [Last updated: Jun.2021]
@@ -433,7 +433,7 @@ class Content extends Component {
             <Image src={psichi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Member @ Phi Chi, the International Honors Society in Psychology
+                Member @ Psi Chi, the International Honors Society in Psychology
                 (Oct.2020 - Present)
               </p>
               <p className="letter">
