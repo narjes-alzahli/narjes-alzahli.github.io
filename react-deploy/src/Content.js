@@ -22,38 +22,30 @@ class Content extends Component {
   bio() {
     return (
       <Container fluid className="App">
-        <Col xs={6}>
+        <Col xs={5}>
           <p className="letter hidden" style={{ textAlign: "left" }}>
             <br />
-            I'm curious about human cognition and language. I aspire to explore
-            fields such as machine learning, NLP, and human-computer
-            interaction.
+            I'm an aspiring full-stack software engineer, mainly developing web
+            and iOS apps. This summer, I'm working as SDE intern at Amazon.
             <br />
             <br />
-            Additionally, I'm a full-stack software developer, mainly developing
-            iOS and web apps. I'm most familiar with UIKit/SwiftUI/ReactJS for
-            frontend and Firebase/Firestore/SQL for backend.
+            Academically, I'm passionate about natural language processing and
+            machine learning. I've been doing research at Cornell Tech on
+            abstract visual-linguistic reasoning with tangrams.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
-            {"Currently:"}
+            {"Relevant Experiences:"}
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
+            - software development intern @ Amazon (JP Kindle Manga)
+            <br />
+            - research assistant @ Language, Interaction, and Learning Lab
+            (advised by Prof.Yoav Artzi)
+            <br />
             - teaching assistant @ CS 2110: Object-Oriented Programming in Java
             <br />
-            - research assistant @ Language, Interaction, and Learning Lab (with
-            Prof.Yoav Artzi)
-            <br />
             - software developer @ Cornell Engineering World Health
-            <br />
-          </p>
-
-          <p className="title hidden" style={{ textAlign: "left" }}>
-            {"In the past:"}
-          </p>
-          <p className="letter hidden" style={{ textAlign: "left" }}>
-            - research assistant @ Attention, Memory, and Perception Lab (with
-            Prof.Khena Swallow)
             <br />
           </p>
 
@@ -61,12 +53,21 @@ class Content extends Component {
             {"Also:"}
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
+            - member @ Phi Beta Kappa, academic honor society
+            <br />
+            - research assistant @ Attention, Memory, and Perception Lab
+            (advised by Prof.Khena Swallow)
+            <br />
             - student ambassador @ College of Arts & Sciences
             <br />
-            - member @ Psi Chi, the International Honors Society in Psychology
+            - member @ Psi Chi, international honors society in psychology
             <br />
             <br />
-            [Last updated: Jun.2021]
+            In my free time, I enjoy drawing, doing ballet, traveling, and
+            hiking. I also love cats, video games, and good food.
+            <br />
+            <br />
+            [Last updated: Jul.2022]
           </p>
         </Col>
       </Container>
@@ -158,6 +159,53 @@ class Content extends Component {
           <br />
 
           <Row className="pt-4">
+            <Image src={tangram} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">TANGRAM PROJECT</p>
+              <p className="letter">
+                Interface for selecting and annotating tangram puzzle pieces
+                that collects descriptions from MTurk workers & data
+                visualization dashboard for NLP research at Language,
+                Interaction, and Learning Lab.
+                <br />
+                <br />
+                Built with Javascript, HTML/CSS, ReactJS and Firebase.
+                <br />
+                <br />
+                Also implemented a ReactJS dashboard for browsing data and
+                statistics; collected over 10,000 annotations through Amazon
+                Mechanical Turk; fine-tuned CLIP model with PyTorch; submitted
+                paper presenting the dataset and contrasting different model
+                performances to EMNLP conference.
+                <br />
+                {/* <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.com/anya-ji/tangram"
+                >
+                  {"GitHub"}
+                </Button> */}
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://tangram-online.web.app/"
+                >
+                  {"Annotation Interface"}
+                </Button>
+                {/* <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://tangram-dashboard.vercel.app/"
+                >
+                  {"Data Dashboard"}
+                </Button> */}
+              </p>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="pt-4">
             <Image src={wholesome} height="150px" width="150px" />
             <Col>
               <p className="title">QUOLESOMENESS - WHOLESOME QUOTES FINDER</p>
@@ -191,46 +239,6 @@ class Content extends Component {
           <br />
           <Row className="player-wrapper justify-content-center">
             <Image src={quolesomeness} height="400px" />
-          </Row>
-
-          <br />
-
-          <Row className="pt-4">
-            <Image src={tangram} roundedCircle height="150px" width="150px" />
-            <Col>
-              <p className="title">TANGRAM PROJECT</p>
-              <p className="letter">
-                Interface for selecting and annotating tangram puzzle pieces
-                that collects descriptions from MTurk workers & data
-                visualization dashboard for NLP research at Language,
-                Interaction, and Learning Lab.
-                <br />
-                <br />
-                Built with Javascript, HTML/CSS, ReactJS and Firebase.
-                <br />
-                {/* <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/anya-ji/tangram"
-                >
-                  {"GitHub"}
-                </Button> */}
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://tangram-online.web.app/"
-                >
-                  {"Annotation Interface"}
-                </Button>
-                {/* <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://tangram-dashboard.vercel.app/"
-                >
-                  {"Data Dashboard"}
-                </Button> */}
-              </p>
-            </Col>
           </Row>
 
           <br />

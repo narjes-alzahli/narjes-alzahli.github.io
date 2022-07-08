@@ -13,14 +13,14 @@
   color: #ffffff;
   font-family: "Courier";
   text-align: left;
-  font-size: smaller;
+  font-size: 15px;
 }
 
-.title{
+.title {
   color: #ffffff;
   font-family: "Arial Black";
   text-align: left;
-  font-size: medium;
+  font-size: 18px;
 }
 
 .click:hover {
@@ -29,6 +29,6 @@
 }
 
 body {
-   height: 100%;
-   background-color: #27292a !important
- }
+  height: 100%;
+  background-color: #27292a !important;
+}
