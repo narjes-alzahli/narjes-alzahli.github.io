@@ -25,8 +25,9 @@ class Content extends Component {
         <Col xs={5}>
           <p className="letter hidden" style={{ textAlign: "left" }}>
             <br />
-            I'm an aspiring full-stack software engineer, mainly developing web
-            and iOS apps. This summer, I'm working as SDE intern at Amazon.
+            I'm an aspiring full-stack software engineer, currently seeking
+            full-time SWE opportunities. This summer, I worked as SDE intern
+            at Amazon.
             <br />
             <br />
             Academically, I'm passionate about natural language processing and
@@ -67,7 +68,7 @@ class Content extends Component {
             hiking. I also love cats, video games, and good food.
             <br />
             <br />
-            [Last updated: Jul.2022]
+            [Last updated: Sep.2022]
           </p>
         </Col>
       </Container>

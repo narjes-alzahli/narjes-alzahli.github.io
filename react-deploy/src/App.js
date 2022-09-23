@@ -50,7 +50,7 @@ class App extends Component {
             <p>
               <br />
               Hello! I'm Anya Ji :)
-              <br /> I major in computer science (M.Eng.) & psychology (B.A.) @ Cornell
+              <br /> I major in computer science (M.Eng., B.A.) & psychology (B.A.) @ Cornell
               University.
             </p>
           </Row>
