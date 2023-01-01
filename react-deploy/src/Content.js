@@ -26,13 +26,23 @@ class Content extends Component {
           <p className="letter hidden" style={{ textAlign: "left" }}>
             <br />
             I'm an aspiring full-stack software engineer, currently seeking
-            full-time SWE opportunities. This summer, I worked as SDE intern
-            at Amazon.
+            full-time SWE opportunities. This summer, I worked as SDE intern at
+            Amazon.
             <br />
             <br />
             Academically, I'm passionate about natural language processing and
             machine learning. I've been doing research at Cornell Tech on
-            abstract visual-linguistic reasoning with tangrams.
+            abstract visual-linguistic reasoning with tangrams. Watch my talk
+            for EMNLP 2022 here:{" "}
+            <a
+              href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {" "}
+              Abstract Visual Reasoning with Tangram Shapes
+            </a>{" "}
+            (Best Long Paper Award).
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -40,13 +50,26 @@ class Content extends Component {
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
             - software development intern @ Amazon (JP Kindle Manga)
-            <br />
-            - research assistant @ Language, Interaction, and Learning Lab
-            (advised by Prof.Yoav Artzi)
+            <br />- research assistant @ Language, Interaction, and Learning Lab
+            (advised by Prof.{" "}
+            <a
+              href={"https://yoavartzi.com/"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Yoav Artzi
+            </a>
+            )
             <br />
             - teaching assistant @ CS 2110: Object-Oriented Programming in Java
-            <br />
-            - software developer @ Cornell Engineering World Health
+            <br />- software developer @{" "}
+            <a
+              href={"https://ewh.engineering.cornell.edu/"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Cornell Engineering World Health
+            </a>
             <br />
           </p>
 
@@ -57,18 +80,18 @@ class Content extends Component {
             - member @ Phi Beta Kappa, academic honor society
             <br />
             - research assistant @ Attention, Memory, and Perception Lab
-            (advised by Prof.Khena Swallow)
+            (advised by Prof. Khena Swallow)
             <br />
             - student ambassador @ College of Arts & Sciences
             <br />
             - member @ Psi Chi, international honors society in psychology
             <br />
             <br />
-            In my free time, I enjoy drawing, doing ballet, traveling, and
-            hiking. I also love cats, video games, and good food.
+            In my free time, I enjoy drawing, ballet, traveling, and hiking. I
+            also love cats, video games, and good food. :)
             <br />
             <br />
-            [Last updated: Sep.2022]
+            [Last updated: Jan.2023]
           </p>
         </Col>
       </Container>
@@ -79,6 +102,73 @@ class Content extends Component {
     return (
       <Container fluid className="App">
         <Col xs={8}>
+          <Row className="pt-4">
+            <Image src={tangram} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                ABSTRACT VISUAL REASONING WITH TANGRAM SHAPES
+              </p>
+              <p className="letter">
+                NLP research project advised by Prof. Yoav Artzi at the Cornell
+                Language, Interaction, and Learning Lab.
+                <br />
+                <br />
+                Built a richly annotated tangram dataset, KiloGram, for studying
+                abstract visual reasoning in humans and machines (over 13,000
+                annotations for 1,016 tangrams).
+                <br />
+                <br />
+                Created an interface for selecting and annotating tangram puzzle
+                pieces that collects descriptions from MTurk & a data
+                visualization dashboard, using Javascript, HTML/CSS, ReactJS and
+                Firebase. Conducted statistical analysis with well-defined
+                metrics and fine-tuned CLIP and ViLT models with PyTorch.
+                <br />
+                <br />
+                My first-authored paper was awarded Best Long Paper at EMNLP
+                (Empirical Methods in Natural Language Processing) in 2022.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href={"https://arxiv.org/abs/2211.16492"}
+                >
+                  {"Paper"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
+                >
+                  {"Talk"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.com/lil-lab/kilogram"
+                >
+                  {"GitHub"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://tangram-online.web.app/"
+                >
+                  {"Annotation Interface"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://lil.nlp.cornell.edu/kilogram/dashboard/"
+                >
+                  {"Data Dashboard"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+
+          <br />
+
           <Row className="pt-4">
             <Image src={triviac} roundedCircle height="150px" />
 
@@ -160,53 +250,6 @@ class Content extends Component {
           <br />
 
           <Row className="pt-4">
-            <Image src={tangram} roundedCircle height="150px" width="150px" />
-            <Col>
-              <p className="title">TANGRAM PROJECT</p>
-              <p className="letter">
-                Interface for selecting and annotating tangram puzzle pieces
-                that collects descriptions from MTurk workers & data
-                visualization dashboard for NLP research at Language,
-                Interaction, and Learning Lab.
-                <br />
-                <br />
-                Built with Javascript, HTML/CSS, ReactJS and Firebase.
-                <br />
-                <br />
-                Also implemented a ReactJS dashboard for browsing data and
-                statistics; collected over 10,000 annotations through Amazon
-                Mechanical Turk; fine-tuned CLIP model with PyTorch; submitted
-                paper presenting the dataset and contrasting different model
-                performances to EMNLP conference.
-                <br />
-                {/* <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/anya-ji/tangram"
-                >
-                  {"GitHub"}
-                </Button> */}
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://tangram-online.web.app/"
-                >
-                  {"Annotation Interface"}
-                </Button>
-                {/* <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://tangram-dashboard.vercel.app/"
-                >
-                  {"Data Dashboard"}
-                </Button> */}
-              </p>
-            </Col>
-          </Row>
-
-          <br />
-
-          <Row className="pt-4">
             <Image src={wholesome} height="150px" width="150px" />
             <Col>
               <p className="title">QUOLESOMENESS - WHOLESOME QUOTES FINDER</p>
@@ -218,7 +261,8 @@ class Content extends Component {
                 (PMI) for tags merging, etc.
                 <br />
                 <br />
-                Built with ReactJS, Python (IR system), and Heroku.
+                Built with ReactJS, Python (information retrieval system), and
+                Heroku.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -253,10 +297,6 @@ class Content extends Component {
                 A tablet game to help women in low-resource areas in India to
                 learn about their own bodies and menstrual health, partnered
                 with Barefoot College in India.
-                {/* <br />
-                Work on the software subteam of Engineering World Health at
-                Cornell University.
-                <br /> */}
                 <br />
                 <br />
                 Built with Kivy in Python and Firebase.
@@ -377,7 +417,7 @@ class Content extends Component {
                 (Feb.2020 - May.2021)
               </p>
               <p className="letter">
-                Work under Professor Khena Swallow on event segmentation.
+                Worked on event segmentation, advised by Prof. Khena Swallow.
                 <br /> <br />
                 (Spring 2021)
                 <br /> Led a research on event segmentation and racial
@@ -416,7 +456,7 @@ class Content extends Component {
             <Image src={music} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Background Music, Time Perception, and Memory (Spring 2021)
+                Background Music, Time Perception, and Memory
               </p>
               <p className="letter">
                 Does background music affect people's time perception of video
@@ -443,7 +483,6 @@ class Content extends Component {
             <Col>
               <p className="title">
                 Member @ Psi Chi, the International Honors Society in Psychology
-                (Oct.2020 - Present)
               </p>
               <p className="letter">
                 Attend grad school workshops and social networking events in the
