@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.77b85e1f.chunk.css",
-    "main.js": "/static/js/main.f55f3ba8.chunk.js",
-    "main.js.map": "/static/js/main.f55f3ba8.chunk.js.map",
+    "main.js": "/static/js/main.e0f9afa1.chunk.js",
+    "main.js.map": "/static/js/main.e0f9afa1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5a7750ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.5a7750ca.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
     "static/js/2.48f2111a.chunk.js": "/static/js/2.48f2111a.chunk.js",
     "static/js/2.48f2111a.chunk.js.map": "/static/js/2.48f2111a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.69af12d132e1bdd91d3453dca86dffd6.js": "/precache-manifest.69af12d132e1bdd91d3453dca86dffd6.js",
+    "precache-manifest.b7fce284f0dfde32bed70ad29208ba5c.js": "/precache-manifest.b7fce284f0dfde32bed70ad29208ba5c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
     "static/css/main.77b85e1f.chunk.css.map": "/static/css/main.77b85e1f.chunk.css.map",
@@ -25,12 +25,12 @@
     "static/media/fitnux.png": "/static/media/fitnux.102bf99b.png",
     "static/media/gmail.png": "/static/media/gmail.1835e162.png",
     "static/media/head.jpg": "/static/media/head.d6dc675f.jpg",
-    "static/media/mercury.png": "/static/media/mercury.ce9ab81d.png",
+    "static/media/mercury.png": "/static/media/mercury.4eb32b07.png",
     "static/media/music.jpeg": "/static/media/music.bfe1264f.jpeg",
     "static/media/ocaml.png": "/static/media/ocaml.f099f885.png",
     "static/media/psichi.png": "/static/media/psichi.80710c34.png",
     "static/media/quolesomeness.png": "/static/media/quolesomeness.85d79cc9.png",
-    "static/media/tangram.svg": "/static/media/tangram.47a05fd7.svg",
+    "static/media/tangram.svg": "/static/media/tangram.27676fa2.svg",
     "static/media/triviac.jpg": "/static/media/triviac.d3dfa1e3.jpg",
     "static/media/wholesome.png": "/static/media/wholesome.b6b5c14c.png",
     "static/media/women.png": "/static/media/women.95b50479.png"
@@ -40,6 +40,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.48f2111a.chunk.js",
     "static/css/main.77b85e1f.chunk.css",
-    "static/js/main.f55f3ba8.chunk.js"
+    "static/js/main.e0f9afa1.chunk.js"
   ]
 }
