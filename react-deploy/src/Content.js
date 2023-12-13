@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import triviac from "./assets/triviac.jpg";
 import mercury from "./assets/mercury.png";
-import fitnux from "./assets/fitnux.png";
 import ocaml from "./assets/ocaml.png";
 import women from "./assets/women.png";
 import amp from "./assets/amp.png";
@@ -15,27 +14,71 @@ import booksmart from "./assets/booksmart.png";
 import booksmart_demo from "./assets/booksmart_demo.png";
 import wholesome from "./assets/wholesome.png";
 import quolesomeness from "./assets/quolesomeness.png";
-import tangram from "./assets/tangram.svg";
+import tangram from "./assets/tangram.png";
 import music from "./assets/music.jpeg";
 
 class Content extends Component {
   bio() {
     return (
       <Container fluid className="App">
-        <Col xs={5}>
+        <Col xs={12} md={5}>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            <br />
-            I'm an aspiring full-stack software engineer, currently seeking
-            full-time SWE opportunities. This summer, I worked as SDE intern at
-            Amazon.
+            <br />I graduated from Cornell University in 2023 with B.A. in
+            Computer Science and Psychology and M.Eng. in Computer Science.
             <br />
             <br />
-            Academically, I'm passionate about natural language processing and
-            machine learning. I've been doing research at Cornell Tech on
-            abstract visual-linguistic reasoning with tangrams. Watch my talk
-            for EMNLP 2022 here:{" "}
+            Academically, I'm interested in natural language processing and
+            cognitive science, particularly in improving multi-modal models'
+            generalization capabilities and building agents that interact
+            smoothly with humans in vision-language tasks.
+            <br />
+            <br />
+            I'm also passionate about software engineering, working on a wide
+            range of projects including various websites, games, crowdsourcing
+            platforms, online research experiments, data visualizations, etc.
+          </p>
+
+          <p className="title hidden" style={{ textAlign: "left" }}>
+            {"/research"}
+          </p>
+
+          <p className="letter hidden" style={{ textAlign: "left" }}>
+            • I've been working on abstract visual reasoning with{" "}
+            <a
+              href={"https://lil.nlp.cornell.edu/kilogram/dashboard/"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              tangrams
+            </a>{" "}
+            at Cornell Tech advised by Prof.{" "}
+            <a
+              href={"https://yoavartzi.com/"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Yoav Artzi
+            </a>{" "}
+            and Prof.{" "}
+            <a
+              href={"https://rdhawkins.com/"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Robert Hawkins
+            </a>
+            . <br />
+            &emsp; - Watch my{" "}
             <a
               href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              talk
+            </a>{" "}
+            for EMNLP 2022 on
+            <a
+              href={"https://arxiv.org/abs/2211.16492"}
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -43,26 +86,34 @@ class Content extends Component {
               Abstract Visual Reasoning with Tangram Shapes
             </a>{" "}
             (Best Long Paper Award).
-          </p>
-
-          <p className="title hidden" style={{ textAlign: "left" }}>
-            {"Relevant Experiences:"}
-          </p>
-          <p className="letter hidden" style={{ textAlign: "left" }}>
-            - software development intern @ Amazon (JP Kindle Manga)
-            <br />- research assistant @ Language, Interaction, and Learning Lab
-            (advised by Prof.{" "}
+            <br />
+            &emsp; - I'm also studying convention formation and transfer between
+            humans in repeated reference games with tangrams:{" "}
             <a
-              href={"https://yoavartzi.com/"}
+              href={"https://arxiv.org/abs/2305.06539"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              Yoav Artzi
-            </a>
-            )
-            <br />
-            - teaching assistant @ CS 2110: Object-Oriented Programming in Java
-            <br />- software developer @{" "}
+              Semantic uncertainty guides the extension of conventions to new
+              referents
+            </a>{" "}
+            (CogSci 2023).
+          </p>
+          <p className="title hidden" style={{ textAlign: "left" }}>
+            {"/engineering"}
+          </p>
+
+          <p className="letter hidden" style={{ textAlign: "left" }}>
+            • I implemented the book carousels on the{" "}
+            <a
+              href={"https://www.amazon.jp/manga"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Kindle Manga Storefront
+            </a>{" "}
+            as an SDE intern at Amazon in summer 2022.
+            <br />• At{" "}
             <a
               href={"https://ewh.engineering.cornell.edu/"}
               target="_blank"
@@ -70,28 +121,29 @@ class Content extends Component {
             >
               Cornell Engineering World Health
             </a>
-            <br />
+            , I worked on{" "}
+            <a
+              href={
+                "https://play.google.com/store/apps/details?id=org.cornellewh.healthfriend&pli=1"
+              }
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Health Friend
+            </a>
+            , a menstrual health educational game for women in low-resource
+            areas in India.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
-            {"Also:"}
+            {"/me"}
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            - member @ Phi Beta Kappa, academic honor society
-            <br />
-            - research assistant @ Attention, Memory, and Perception Lab
-            (advised by Prof. Khena Swallow)
-            <br />
-            - student ambassador @ College of Arts & Sciences
-            <br />
-            - member @ Psi Chi, international honors society in psychology
+            In my free time, I enjoy drawing, ballet, and traveling. I also love
+            cats, video games, and good food. :)
             <br />
             <br />
-            In my free time, I enjoy drawing, ballet, traveling, and hiking. I
-            also love cats, video games, and good food. :)
-            <br />
-            <br />
-            [Last updated: Jan.2023]
+            [Last updated: Dec.2023]
           </p>
         </Col>
       </Container>
@@ -125,7 +177,7 @@ class Content extends Component {
                 metrics and fine-tuned CLIP and ViLT models with PyTorch.
                 <br />
                 <br />
-                My first-authored paper was awarded Best Long Paper at EMNLP
+                My first-authored paper received Best Long Paper at EMNLP
                 (Empirical Methods in Natural Language Processing) in 2022.
                 <br />
                 <Button
@@ -187,13 +239,6 @@ class Content extends Component {
                 >
                   {"GitHub"}
                 </Button>
-                <Button
-                  className="mt-4 letter"
-                  variant="outline-light"
-                  href="https://apps.apple.com/app/id1515983515"
-                >
-                  {"App Store"}
-                </Button>
               </p>
             </Col>
           </Row>
@@ -245,45 +290,6 @@ class Content extends Component {
               url="video/mercury_demo.mp4"
               controls={true}
             />
-          </Row>
-
-          <br />
-
-          <Row className="pt-4">
-            <Image src={wholesome} height="150px" width="150px" />
-            <Col>
-              <p className="title">QUOLESOMENESS - WHOLESOME QUOTES FINDER</p>
-              <p className="letter">
-                An information retrieval system to find personalized wholesome
-                quotes based on categories, emotion, and your input text,
-                integrating the Latent Semantic Indexing (LSI) Model, sentiment
-                analysis, Wordnet word embeddings, pointwise mutual information
-                (PMI) for tags merging, etc.
-                <br />
-                <br />
-                Built with ReactJS, Python (information retrieval system), and
-                Heroku.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/anya-ji/quolesomeness"
-                >
-                  {"GitHub"}
-                </Button>
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://quolesome-ness-4300.herokuapp.com/"
-                >
-                  {"Quolesomeness App"}
-                </Button>
-              </p>
-            </Col>
-          </Row>
-          <br />
-          <Row className="player-wrapper justify-content-center">
-            <Image src={quolesomeness} height="400px" />
           </Row>
 
           <br />
@@ -362,6 +368,38 @@ class Content extends Component {
               loop
               playing
             />
+          </Row>
+
+          <br />
+
+          <Row className="pt-4">
+            <Image src={wholesome} height="150px" width="150px" />
+            <Col>
+              <p className="title">QUOLESOMENESS - WHOLESOME QUOTES FINDER</p>
+              <p className="letter">
+                An information retrieval system to find personalized wholesome
+                quotes based on categories, emotion, and your input text,
+                integrating the Latent Semantic Indexing (LSI) Model, sentiment
+                analysis, Wordnet word embeddings, pointwise mutual information
+                (PMI) for tags merging, etc.
+                <br />
+                <br />
+                Built with ReactJS, Python (information retrieval system), and
+                Heroku.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://github.com/anya-ji/quolesomeness"
+                >
+                  {"GitHub"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+          <br />
+          <Row className="player-wrapper justify-content-center">
+            <Image src={quolesomeness} height="400px" />
           </Row>
 
           <br />

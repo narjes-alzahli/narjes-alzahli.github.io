@@ -47,12 +47,7 @@ class App extends Component {
             className="justify-content-md-center letter hidden"
             style={{ textAlign: "center" }}
           >
-            <p>
-              <br />
-              Hello! I'm Anya Ji :)
-              <br /> I major in computer science (M.Eng., B.A.) & psychology (B.A.) @ Cornell
-              University.
-            </p>
+            <h1 style={{ textAlign: "left", fontWeight: "bold" }}>Anya Ji</h1>
           </Row>
 
           <Row className="justify-content-md-center">
