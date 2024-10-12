@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import triviac from "./assets/triviac.jpg";
 import ocaml from "./assets/ocaml.png";
 import women from "./assets/women.png";
 import amp from "./assets/amp.png";
 import coming from "./assets/coming.jpg";
-import { Container, Row, Image, Col, Button } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import booksmart from "./assets/booksmart.png";
+import booksmart_demo from "./assets/booksmart_demo.png";
 import wholesome from "./assets/wholesome.png";
 import quolesomeness from "./assets/quolesomeness.png";
 import seg from "./assets/seg.jpg";
@@ -18,6 +19,10 @@ import cambridge_logo from "./assets/cambridge_logo.jpg";
 import greymatters from "./assets/greymatters.jpg";
 import davachi from "./assets/davachi.jpg";
 import neurotech from "./assets/neurotech.jpg";
+
+import { Container, Row, Image, Col, Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ReactPlayer from "react-player";
 
 class Content extends Component {
   bio() {
@@ -89,9 +94,11 @@ class Content extends Component {
             <br />
             &emsp; - I'm also aiming to study predictive mechanisms in the brain.
           </p>
+
           <p className="title hidden" style={{ textAlign: "left" }}>
             {"/Tutoring"}
           </p>
+
           <p className="letter hidden" style={{ textAlign: "left" }}>
             • I enjoy teaching and have tutored an introductory course in AI with{" "}
             <a
@@ -102,12 +109,12 @@ class Content extends Component {
               Inspirit AI
             </a>{" "}
             to elementary school and middle school students in NYC.
-            <br />
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
             {"/me"}
           </p>
+
           <p className="letter hidden" style={{ textAlign: "left" }}>
             In my free time, I enjoy climbing, reading and watching TV. :)
             <br />
@@ -126,19 +133,14 @@ class Content extends Component {
           <Row className="pt-4">
             <Image src={seg} roundedCircle height="150px" width="150px" />
             <Col>
-              <p className="title">
-                Event Segmentation Hidden Markov Model
-              </p>
+              <p className="title">Event Segmentation Hidden Markov Model</p>
               <p className="letter">
                 HMM-based research project advised by Prof. Chris Baldassano at the Columbia Dynamic Perception
                 and Memory Lab and Prof. Mariam Aly at the UC Berkeley Aly Lab.
                 <br />
-                <br />
                 Looked for timescale changes in the brain with repeated movie viewing using the HMM model across searchlights in the brain.
                 <br />
-                <br />
                 Conducted statistical analysis with well-defined metrics using Brainiak.
-                <br />
                 <br />
                 My first-authored paper delivered as a talk in the Long-Term Memory Nanosymposium at the Society for Neuroscience Conference (Oct, 2024).
                 <br />
@@ -177,7 +179,7 @@ class Content extends Component {
               <p className="letter">
                 Guided high-school students through coding projects based on current AI problems, 
                 such as developing music recommendation systems, implementing named entity recognition 
-                in Siri voice commands, and understanding unbiased large language models..
+                in Siri voice commands, and understanding unbiased large language models.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -207,9 +209,9 @@ class Content extends Component {
               </p>
             </Col>
           </Row>
-                    
+
           <br />
-                    
+
           <Row className="pt-4">
             <Image src={classes} roundedCircle height="150px" />
 
@@ -244,8 +246,8 @@ class Content extends Component {
               </p>
             </Col>
           </Row>
-          <br />          
-                    
+
+          <br />
         </Col>
       </Container>
     );
@@ -259,12 +261,10 @@ class Content extends Component {
             <Image src={alyssano} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Research Assistant & Lab Manager @ Alyssano Group
-                (Oct.2023 - Now)
+                Research Assistant & Lab Manager @ Alyssano Group (Oct.2023 - Now)
               </p>
               <p className="letter">
                 Worked on event segmentation, advised by Prof. Mariam Aly @ UC Berkeley and Prof. Chris Baldassano @ Columbia.
-                <br /> <br />
                 <br /> Led a research on the fine-tuning and chunking of events in repeated naturalistic stimuli.
                 <br /> Used a hidden markov event segmentation model and the Budapest dataset.
                 <br /> • Administration: Oversee two labs, managing IRB protocols, subject recruitment and website maintenance.
@@ -290,7 +290,7 @@ class Content extends Component {
                   variant="outline-light"
                   href="https://www.dpmlab.org/"
                 >
-                  {"Dynamic Perpcetion & Memory Lab"}
+                  {"Dynamic Perception & Memory Lab"}
                 </Button>
               </p>
             </Col>
@@ -303,43 +303,11 @@ class Content extends Component {
                 Global Neuroscience Scholar @ Columbia Summer Practicum
                 (Paris Brain Institute (ICM) & Columbia Global Center, Summer 2023)
               </p>
-              <p className="letter"> https://parisbraininstitute.org/paris-brain-institute-research-teams/picnic-neuropsychology-and-functional-neuroimaging
-                <br /> • Lab Rotations: Rotated through leading labs at Paris Brain Institute ({" "}
-                <a
-                  href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/picnic-neuropsychology-and-functional-neuroimaging"}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  PICNIC
-                </a>{" "}
-                ,{" "}
-                <a
-                  href={"https://www.movit.paris/teams/dream-team-sleep-dreams-and-cognition"}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  DreamTeam
-                </a>{" "}
-                ,{" "}
-                <a
-                  href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/frontlab-system-functions-and-malfunctions"}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  FrontLab
-                </a>{" "}
-                ,{" "}
-                <a
-                  href={"https://www.aramislab.fr/"}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  ARAMIS
-                </a>{" "}
-                , delving into cutting-edge consciousness research with Prof. Alfredo Spagna.
-                <br /> • Scientific Discussion: Connected with leading scientists like Lionel Naccache and Bassem Hassan, engaging in immersive discussion to deepen understanding of brain research.
-                <br /> • Brain Measurement: Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS) through comprehensive learning and hands-on experience at the labs.
-                <br /> <br />
+              <p className="letter">
+                • Lab Rotations: Rotated through leading labs at Paris Brain Institute.
+                <br /> • Scientific Discussion: Connected with leading scientists like Lionel Naccache and Bassem Hassan.
+                <br /> • Brain Measurement: Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS).
+                <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
@@ -347,15 +315,6 @@ class Content extends Component {
                 >
                   {"Columbia Global Neuroscience"}
                 </Button>
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="http://www.alfredospagna.com/"
-                >
-                  {"Alfredo Spagna"}
-                </Button>
-                <br />
               </p>
             </Col>
           </Row>
@@ -370,35 +329,14 @@ class Content extends Component {
               <p className="letter">
                 • Research Design: Designed novel experiment to study positive deviance in 36 countries.
                 <br />
-                • Data Analysis: Utilized various statistical methods (e.g. chi-square, ANOVA, multinomial logistic
-                regression, Bayesian Model Averaging), to process and analyze vast, international data set.
+                • Data Analysis: Utilized various statistical methods (e.g. chi-square, ANOVA, Bayesian Model Averaging).
                 <br />
-                • Collaboration: Collaborated with international team to dissect literature and refine research direction.
-                <br />
-                • Publication: Co-authored two papers on positive deviance and cognitive biases, successfully published below.
-                <br /> <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://global.undergrad.columbia.edu/program/columbia-summer-research-practicum-global-behavioral-science-globes"
                 >
                   {"GLOBES"}
-                </Button>
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/psychology-and-policy-of-overcoming-economic-inequality/92FA5CA209A91B608F8493FAF95CAA1B?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark"
-                >
-                  {"Cambridge Press BBS: 'Psychology & Policy of Overcoming Econominc Inequality'"}
-                </Button>
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://www.nature.com/articles/s41598-023-36339-2"
-                >
-                  {"Nature Scientific Reports: 'Cognitive Biases in Financial Decisions Across Economic Groups'"}
                 </Button>
               </p>
             </Col>
@@ -411,8 +349,7 @@ class Content extends Component {
                 Scientific Review Editor @ Grey Matters Journal
               </p>
               <p className="letter">
-                <br /> • Scientific Edition: Verified scientific integrity and validity of articles submitted to journal.
-                <br /> • Collaborative Publishing: Co-authored article on Integrated Information Theory of Consciousness.
+                • Scientific Edition: Verified scientific integrity and validity of articles.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -426,27 +363,6 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
-            <Image src={psichi} roundedCircle height="150px" width="150px" />
-            <Col>
-              <p className="title">
-                Member @ Psi Chi, the International Honors Society in Psychology
-              </p>
-              <p className="letter">
-                Attend grad school workshops and social networking events in the
-                field of psychology.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://psychology.columbia.edu/content/columbia-university-psi-chi-honors-society"
-                >
-                  {"Psi Chi Columbia"}
-                </Button>
-              </p>
-            </Col>
-          </Row>
-          
-          <Row className="pt-4">
             <Image src={davachi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
@@ -454,42 +370,16 @@ class Content extends Component {
                 (May.2022 - Nov.2022)
               </p>
               <p className="letter">
-                <br /> <br />
                 • Menteeship: Worked with postdoc Amir Tal, studying Unconscious Memory Relearning.
+                <br /> • Subject Recruitment & Eye-Tracking: Proctored experiments with student subjects using eye-tracking technology.
                 <br />
-                • Literature Review: Delved into extensive research on unconscious memory relearning.
-                <br />
-                • Training: Completed Human Subjects Research (IRB) Training. 
-                <br />
-                • Subject Recruitment & Eye-Tracking: Proctored experiments with student subjects using 
-                eye-tracking technology and entered data on computer.
-                <br /> <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://davachilab.psychology.columbia.edu/"
                 >
-                  {"CORE (Construction, Organization & Reactivation of Experience) Lab"}
+                  {"CORE Lab"}
                 </Button>
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="pt-4">
-            <Image src={classes} roundedCircle height="150px" width="150px" />
-            <Col>
-              <p className="title">
-                Courses
-              </p>
-              <p className="letter">
-                <br /> <br />
-                <br /> •  Research Methods & Cognitive Neuroscience with Lila Davachi
-                <br /> •  Evolution of Intelligence, Language & Consciousness with Prof. Herbert Terrace
-                <br /> •  Brain, Mind & Language with Prof. William A. Foley
-                <br /> •  Consciousness Science with Prof. Nora Isacoff
-                <br /> •  Consciousness and Attention with Prof. Alfredo Spagna
-                <br /> •  Evolutionary Psychology with Prof. Ian Lawrence Reed
-                <br /> <br />
               </p>
             </Col>
           </Row>
@@ -512,7 +402,6 @@ class Content extends Component {
               </p>
             </Col>
           </Row>
-          
         </Col>
       </Container>
     );
@@ -530,5 +419,7 @@ class Content extends Component {
     }
   }
 }
+
+export default Content;
 
 export default Content;
