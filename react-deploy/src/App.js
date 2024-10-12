@@ -47,11 +47,11 @@ class App extends Component {
             className="justify-content-md-center letter hidden"
             style={{ textAlign: "center" }}
           >
-            <h1 style={{ textAlign: "left", fontWeight: "bold" }}>Anya Ji</h1>
+            <h1 style={{ textAlign: "left", fontWeight: "bold" }}>Narjes Al-Zahli</h1>
           </Row>
 
           <Row className="justify-content-md-center">
-            <a href="https://github.com/anya-ji">
+            <a href="https://github.com/narjes-al">
               <Image
                 className="m-3 click"
                 src={github}
@@ -59,7 +59,7 @@ class App extends Component {
                 height="50px"
               />
             </a>
-            <a href="https://www.linkedin.com/in/anya-ji/">
+            <a href="https://www.linkedin.com/in/narjes-al-zahli-2145a022a/">
               <Image
                 className="m-3 click"
                 src={linkedin}
@@ -67,7 +67,7 @@ class App extends Component {
                 height="50px"
               />
             </a>
-            <a href="mailto:aj592@cornell.edu">
+            <a href="mailto:na2852@columbia.edu">
               <Image
                 className="m-3 click"
                 src={gmail}
