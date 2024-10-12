@@ -1,21 +1,23 @@
 import React, { Component } from "react";
-import triviac from "./assets/triviac.jpg";
-import mercury from "./assets/mercury.png";
 import ocaml from "./assets/ocaml.png";
 import women from "./assets/women.png";
 import amp from "./assets/amp.png";
 import coming from "./assets/coming.jpg";
-import aclab from "./assets/aclab.png";
-import psichi from "./assets/psichi.png";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ReactPlayer from "react-player";
-import booksmart from "./assets/booksmart.png";
-import booksmart_demo from "./assets/booksmart_demo.png";
 import wholesome from "./assets/wholesome.png";
 import quolesomeness from "./assets/quolesomeness.png";
-import tangram from "./assets/tangram.png";
-import music from "./assets/music.jpeg";
+import seg from "./assets/seg.jpg";
+import inspirit from "./assets/inspirit.jpg";
+import teaching1 from "./assets/teaching1.jpg";
+import classes from "./assets/classes.jpg";
+import rtc from "./assets/rtc.jpg";
+import alyssano from "./assets/alyssano.jpg";
+import paris from "./assets/paris.jpg";
+import cambridge_logo from "./assets/cambridge_logo.jpg";
+import greymatters from "./assets/greymatters.jpg";
+import davachi from "./assets/davachi.jpg";
+import neurotech from "./assets/neurotech.jpg";
 
 class Content extends Component {
   bio() {
