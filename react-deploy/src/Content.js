@@ -110,7 +110,17 @@ class Content extends Component {
             <br />
             <br />
             [Last updated: Oct.2024]
+            <br />
+             Template from {" "}
+            <a
+              href={"https://anya-ji.github.io/"}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Anya Ji
+            </a>{" "}
           </p>
+                
         </Col>
       </Container>
     );
