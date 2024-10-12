@@ -23,19 +23,17 @@ class Content extends Component {
       <Container fluid className="App">
         <Col xs={12} md={5}>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            <br />I graduated from Cornell University in 2023 with B.A. in
-            Computer Science and Psychology and M.Eng. in Computer Science.
+            <br />I graduated from Columbia University in 2023 with B.A. in
+            Computer Science and Psychology.
             <br />
             <br />
-            Academically, I'm interested in natural language processing and
-            cognitive science, particularly in improving multi-modal models'
-            generalization capabilities and building agents that interact
-            smoothly with humans in vision-language tasks.
+            Academically, I'm so fascinated about the brain. 
+            I want to understand the cognitive mechanism behind our perception of time
+            and how we segment our continuous experience into discrete events.
             <br />
             <br />
-            I'm also passionate about software engineering, working on a wide
-            range of projects including various websites, games, crowdsourcing
-            platforms, online research experiments, data visualizations, etc.
+            I'm also passionate about math and building a computational model 
+            of state transitions in the brain.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -43,107 +41,76 @@ class Content extends Component {
           </p>
 
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            • I've been working on abstract visual reasoning with{" "}
+            • I've been working with an{" "}
             <a
-              href={"https://lil.nlp.cornell.edu/kilogram/dashboard/"}
+              href={"https://naturalistic-data.org/content/Event_Segmentation.html"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              tangrams
+              Event Segmentation Hidden Markov Model
             </a>{" "}
-            at Cornell Tech advised by Prof.{" "}
+            at Columbia University and UC Berkeley advised by Prof.{" "}
             <a
-              href={"https://yoavartzi.com/"}
+              href={"https://www.chrisbaldassano.com/about.html"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              Yoav Artzi
+              Chris Baldassano
             </a>{" "}
             and Prof.{" "}
             <a
-              href={"https://rdhawkins.com/"}
+              href={"https://www.alylab.org/mariam"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              Robert Hawkins
-            </a>
+              Mariam Aly
+            </a>{" "}
             . <br />
-            &emsp; - Watch my{" "}
+            &emsp; - I delivered a talk for {" "}
             <a
               href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              talk
+              the Society of Neuroscience Conference 2024
             </a>{" "}
-            for EMNLP 2022 on
+            on 
             <a
-              href={"https://arxiv.org/abs/2211.16492"}
+              href={"https://github.com/narjes-al/Budapest-TimescaleChanges"}
               target="_blank"
               rel="noreferrer noopener"
             >
               {" "}
-              Abstract Visual Reasoning with Tangram Shapes
+              The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli
             </a>{" "}
-            (Best Long Paper Award).
+            .
             <br />
-            &emsp; - I'm also studying convention formation and transfer between
-            humans in repeated reference games with tangrams:{" "}
-            <a
-              href={"https://arxiv.org/abs/2305.06539"}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Semantic uncertainty guides the extension of conventions to new
-              referents
-            </a>{" "}
-            (CogSci 2023).
+            &emsp; - I'm also aiming to study predictive mechanisms in the brain.
           </p>
           <p className="title hidden" style={{ textAlign: "left" }}>
-            {"/engineering"}
+            {"/Tutoring"}
           </p>
-
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            • I implemented the book carousels on the{" "}
+            • I enjoy teaching and have tutored an introductory course in AI with{" "}
             <a
-              href={"https://www.amazon.jp/manga"}
+              href={"https://www.inspiritai.com/"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              Kindle Manga Storefront
+              Inspirit AI
             </a>{" "}
-            as an SDE intern at Amazon in summer 2022.
-            <br />• At{" "}
-            <a
-              href={"https://ewh.engineering.cornell.edu/"}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Cornell Engineering World Health
-            </a>
-            , I worked on{" "}
-            <a
-              href={
-                "https://play.google.com/store/apps/details?id=org.cornellewh.healthfriend&pli=1"
-              }
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Health Friend
-            </a>
-            , a menstrual health educational game for women in low-resource
-            areas in India.
+            to elementary school and middle school students in NYC.
+            <br />
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
             {"/me"}
           </p>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            In my free time, I enjoy drawing, ballet, and traveling. I also love
-            cats, video games, and good food. :)
+            In my free time, I enjoy climbing, reading and watching TV. :)
             <br />
             <br />
-            [Last updated: Dec.2023]
+            [Last updated: Oct.2024]
           </p>
         </Col>
       </Container>
@@ -451,66 +418,146 @@ class Content extends Component {
             <Image src={amp} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Research Assistant @ Attention, Memory & Perception Lab
-                (Feb.2020 - May.2021)
+                Research Assistant & Lab Manager @ Alyssano Group
+                (Oct.2023 - Now)
               </p>
               <p className="letter">
-                Worked on event segmentation, advised by Prof. Khena Swallow.
+                Worked on event segmentation, advised by Prof. Mariam Aly @ UC Berkeley and Prof. Chris Baldassano @ Columbia.
                 <br /> <br />
-                (Spring 2021)
-                <br /> Led a research on event segmentation and racial
-                prejudice. Programmed the experiment hosted on Pavlovia.
-                <br /> <br />
-                (Spring 2020 - Fall 2020)
-                <br /> Developed a computer program for the experiment with
-                PsychoPy that lets the subject segment and label video clips
-                when a change in action or goals is perceived and collects
-                segmentation timestamps, to study how people perceive actions
-                and goals.
-                <br />
-                Analyzed recall error types and semantic similarity among
-                sentences, nouns, and verbs on a subset of free recall data from
-                an event segmentation task.
+                <br /> Led a research on the fine-tuning and chunking of events in repeated naturalistic stimuli.
+                <br /> Used a hidden markov event segmentation model and the Budapest dataset.
+                <br /> • Administration: Oversee two labs, managing IRB protocols, subject recruitment and website maintenance.
+                <br /> • Research: Conduct research on Changes in Event Timescales using naturalistic stimuli (movies) and Event
+                Segmentation analysis based on Hidden Markov Models.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://github.com/anya-ji/event-coding"
+                  href="https://github.com/narjes-al/Budapest-TimescaleChanges"
                 >
-                  {"GitHub/Event-coding"}
+                  {"GitHub/Timescale-Changes"}
                 </Button>
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://amp-lab.psych.cornell.edu/"
+                  href="https://www.alylab.org/"
                 >
-                  {"AMP Lab"}
+                  {"Aly Lab"}
+                </Button>
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://www.dpmlab.org/"
+                >
+                  {"Dynamic Perpcetion & Memory Lab"}
                 </Button>
               </p>
             </Col>
           </Row>
 
           <Row className="pt-4">
-            <Image src={music} roundedCircle height="150px" width="150px" />
+            <Image src={aclab} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Background Music, Time Perception, and Memory
+                Global Neuroscience Scholar @ Columbia Summer Practicum
+                (Paris Brain Institute (ICM) & Columbia Global Center, Summer 2023)
               </p>
-              <p className="letter">
-                Does background music affect people's time perception of video
-                clips? What roles do music, familiarity, and preference play in
-                time perception and event recall?
-                <br />
-                <br />
-                Research project for PSYCH3160: Auditory Perception, The Music
-                Lab.
+              <p className="letter"> https://parisbraininstitute.org/paris-brain-institute-research-teams/picnic-neuropsychology-and-functional-neuroimaging
+                <br /> • Lab Rotations: Rotated through leading labs at Paris Brain Institute ({" "}
+                <a
+                  href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/picnic-neuropsychology-and-functional-neuroimaging"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  PICNIC
+                </a>{" "}
+                ,{" "}
+                <a
+                  href={"https://www.movit.paris/teams/dream-team-sleep-dreams-and-cognition"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  DreamTeam
+                </a>{" "}
+                ,{" "}
+                <a
+                  href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/frontlab-system-functions-and-malfunctions"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  FrontLab
+                </a>{" "}
+                ,{" "}
+                <a
+                  href={"https://www.aramislab.fr/"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  ARAMIS
+                </a>{" "}
+                , delving into cutting-edge consciousness research with Prof. Alfredo Spagna.
+                <br /> • Scientific Discussion: Connected with leading scientists like Lionel Naccache and Bassem Hassan, engaging in immersive discussion to deepen understanding of brain research.
+                <br /> • Brain Measurement: Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS) through comprehensive learning and hands-on experience at the labs.
+                <br /> <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://global.undergrad.columbia.edu/gsp-hc"
+                >
+                  {"Columbia Global Neuroscience"}
+                </Button>
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://docs.google.com/presentation/d/1qM5ApQ8qEnmUDLm1Sg-nUZkpN1lf9YSpV0egLZGXhIQ/edit?usp=sharing"
+                  href="http://www.alfredospagna.com/"
                 >
-                  {"Presentation"}
+                  {"Alfredo Spagna"}
+                </Button>
+                <br />
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Image src={aclab} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                Global Research Scholar @ Columbia Summer Practicum
+                (Cambridge, UK - Summer 2022)
+              </p>
+              <p className="letter">
+                • Research Design: Designed novel experiment to study positive deviance in 36 countries.
+                <br />
+                • Data Analysis: Utilized various statistical methods (e.g. chi-square, ANOVA, multinomial logistic
+                regression, Bayesian Model Averaging), to process and analyze vast, international data set.
+                <br />
+                • Collaboration: Collaborated with international team to dissect literature and refine research direction.
+                <br />
+                • Publication: Co-authored two papers on positive deviance and cognitive biases, successfully published below.
+                <br /> <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://global.undergrad.columbia.edu/program/columbia-summer-research-practicum-global-behavioral-science-globes"
+                >
+                  {"GLOBES"}
+                </Button>
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/psychology-and-policy-of-overcoming-economic-inequality/92FA5CA209A91B608F8493FAF95CAA1B?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark"
+                >
+                  {"Cambridge Press BBS: 'Psychology & Policy of Overcoming Econominc Inequality'"}
+                </Button>
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://www.nature.com/articles/s41598-023-36339-2"
+                >
+                  {"Nature Scientific Reports: 'Cognitive Biases in Financial Decisions Across Economic Groups'"}
                 </Button>
               </p>
             </Col>
@@ -529,40 +576,62 @@ class Content extends Component {
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://www.instagram.com/psi_chi_cornell/?hl=en"
+                  href="https://psychology.columbia.edu/content/columbia-university-psi-chi-honors-society"
                 >
-                  {"Psi Chi Cornell"}
+                  {"Psi Chi Columbia"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+          
+          <Row className="pt-4">
+            <Image src={music} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                Research Assistant @ Davachi Lab
+                (May.2022 - Nov.2022)
+              </p>
+              <p className="letter">
+                <br /> <br />
+                • Menteeship: Worked with postdoc Amir Tal, studying Unconscious Memory Relearning.
+                <br />
+                • Literature Review: Delved into extensive research on unconscious memory relearning.
+                <br />
+                • Training: Completed Human Subjects Research (IRB) Training. 
+                <br />
+                • Subject Recruitment & Eye-Tracking: Proctored experiments with student subjects using 
+                eye-tracking technology and entered data on computer.
+                <br /> <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://davachilab.psychology.columbia.edu/"
+                >
+                  {"CORE (Construction, Organization & Reactivation of Experience) Lab"}
                 </Button>
               </p>
             </Col>
           </Row>
 
           <Row className="pt-4">
-            <Image src={aclab} roundedCircle height="150px" width="150px" />
+            <Image src={music} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Research Assistant @ Affect & Cognition Lab (Oct.2019 -
-                Feb.2020)
+                Courses
               </p>
               <p className="letter">
-                Completed Human Subjects Research (IRB) Training.
                 <br /> <br />
-                Worked with graduate student Saeedeh Sadeghi studying the
-                correlation between time perception and orienting response.
+                <br /> •  Research Methods & Cognitive Neuroscience with Lila Davachi
+                <br /> •  Evolution of Intelligence, Language & Consciousness with Prof. Herbert Terrace
+                <br /> •  Brain, Mind & Language with Prof. William A. Foley
+                <br /> •  Consciousness Science with Prof. Nora Isacoff
+                <br /> •  Consciousness and Attention with Prof. Alfredo Spagna
+                <br /> •  Evolutionary Psychology with Prof. Ian Lawrence Reed
                 <br /> <br />
-                Prepared ECG electrodes, proctored experiments with student
-                subjects and entered data on computer.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="http://aclab.human.cornell.edu/"
-                >
-                  {"AC Lab"}
-                </Button>
               </p>
             </Col>
           </Row>
+          
         </Col>
       </Container>
     );
