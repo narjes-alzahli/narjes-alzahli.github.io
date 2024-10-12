@@ -122,65 +122,44 @@ class Content extends Component {
       <Container fluid className="App">
         <Col xs={8}>
           <Row className="pt-4">
-            <Image src={tangram} roundedCircle height="150px" width="150px" />
+            <Image src={seg} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                ABSTRACT VISUAL REASONING WITH TANGRAM SHAPES
+                Event Segmentation Hidden Markov Model
               </p>
               <p className="letter">
-                NLP research project advised by Prof. Yoav Artzi at the Cornell
-                Language, Interaction, and Learning Lab.
+                HMM-based research project advised by Prof. Chris Baldassano at the Columbia Dynamic Perception
+                and Memory Lab and Prof. Mariam Aly at the UC Berkeley Aly Lab.
                 <br />
                 <br />
-                Built a richly annotated tangram dataset, KiloGram, for studying
-                abstract visual reasoning in humans and machines (over 13,000
-                annotations for 1,016 tangrams).
+                Looked for timescale changes in the brain with repeated movie viewing using the HMM model across searchlights in the brain.
                 <br />
                 <br />
-                Created an interface for selecting and annotating tangram puzzle
-                pieces that collects descriptions from MTurk & a data
-                visualization dashboard, using Javascript, HTML/CSS, ReactJS and
-                Firebase. Conducted statistical analysis with well-defined
-                metrics and fine-tuned CLIP and ViLT models with PyTorch.
+                Conducted statistical analysis with well-defined metrics using Brainiak.
                 <br />
                 <br />
-                My first-authored paper received Best Long Paper at EMNLP
-                (Empirical Methods in Natural Language Processing) in 2022.
+                My first-authored paper delivered as a talk in the Long-Term Memory Nanosymposium at the Society for Neuroscience Conference (Oct, 2024).
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href={"https://arxiv.org/abs/2211.16492"}
+                  href={""}
                 >
                   {"Paper"}
                 </Button>
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
-                >
-                  {"Talk"}
-                </Button>
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/lil-lab/kilogram"
+                  href="https://github.com/narjes-al/Budapest-TimescaleChanges"
                 >
                   {"GitHub"}
                 </Button>
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://tangram-online.web.app/"
+                  href="https://brainiak.org/tutorials/12-hmm/"
                 >
-                  {"Annotation Interface"}
-                </Button>
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://lil.nlp.cornell.edu/kilogram/dashboard/"
-                >
-                  {"Data Dashboard"}
+                  {"HMM"}
                 </Button>
               </p>
             </Col>
@@ -189,111 +168,21 @@ class Content extends Component {
           <br />
 
           <Row className="pt-4">
-            <Image src={triviac} roundedCircle height="150px" />
+            <Image src={inspirit} roundedCircle height="150px" />
 
             <Col>
-              <p className="title">TRIVIAC - TRIVIA GAMES</p>
+              <p className="title">Teaching AI (Nov 2023 - Now)</p>
               <p className="letter">
-                An iOS app for generating, playing, and archiving single- or
-                multi-player trivia games. <br />
-                <br />
-                Built with UIKit, Firebase, and OpenTriviaDatabase.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/anya-ji/triviac"
-                >
-                  {"GitHub"}
-                </Button>
-              </p>
-            </Col>
-          </Row>
-          <Row className="player-wrapper justify-content-center">
-            <ReactPlayer
-              className="react-player"
-              url="video/triviac_demo.mov"
-              controls={false}
-              loop
-              playing
-            />
-          </Row>
-
-          <br />
-
-          <Row className="pt-4">
-            <Image src={mercury} roundedCircle height="150px" />
-
-            <Col>
-              <p className="title">MERCURY - ONLINE OFFICE HOURS </p>
-              <p className="letter">
-                All-in-one platform for better online office hours experiences!
-                Supports separate roles for students and TAs, queuing, and
-                video/audio conferencing.
-                <br />
-                <br />
-                Built with ReactJS and PostgreSQL.
-                {/* <br />
-                Designed mock-ups on Figma and implemented UI components with
-                SemanticUI, worked with Google OAuth for user login and web
-                sockets to signal joining/leaving calls and broadcast messages,
-                and made API calls with Axios to update the server with current
-                users. */}
+                Guided high-school students through coding projects based on current AI problems, 
+                such as developing music recommendation systems, implementing named entity recognition 
+                in Siri voice commands, and understanding unbiased large language models..
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://github.com/MercuryOH/mercury"
+                  href="https://www.inspiritai.com/"
                 >
-                  {"GitHub"}
-                </Button>
-              </p>
-            </Col>
-          </Row>
-          <br />
-          <Row className="player-wrapper justify-content-center">
-            <ReactPlayer
-              className="react-player"
-              url="video/mercury_demo.mp4"
-              controls={true}
-            />
-          </Row>
-
-          <br />
-
-          <Row className="pt-4">
-            <Image src={women} roundedCircle height="150px" />
-
-            <Col>
-              <p className="title">HEALTH FRIEND</p>
-              <p className="letter">
-                A tablet game to help women in low-resource areas in India to
-                learn about their own bodies and menstrual health, partnered
-                with Barefoot College in India.
-                <br />
-                <br />
-                Built with Kivy in Python and Firebase.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/Cornell-Engineering-World-Health/womens-health-game"
-                >
-                  {"GitHub"}
-                </Button>
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href=" https://play.google.com/store/apps/details?id=org.cornellewh.healthfriend"
-                >
-                  {"Google Play Store"}
-                </Button>
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://ewh.engineering.cornell.edu/about"
-                >
-                  {"Cornell Engineering World Health"}
+                  {"Inspirit AI"}
                 </Button>
               </p>
             </Col>
@@ -302,109 +191,59 @@ class Content extends Component {
           <br />
 
           <Row className="pt-4">
-            <Image src={ocaml} roundedCircle height="150px" />
+            <Image src={teaching1} roundedCircle height="150px" />
+
             <Col>
-              <p className="title">ANAGRAMS</p>
+              <p className="title">Teaching Assistance </p>
               <p className="letter">
-                A multiplayer terminal game in OCaml for customizable anagrams
-                games, with different difficulty levels and various game rules.
-                {/* <br />
-                Integrated Anagramica API to validate created words.
-                <br />
-                Final project for functional programming (CS 3110). Collaborated
-                with Bahar Tehranipoor and Ashley Yu. */}
-                <br />
-                <br />
-                Built with OCaml.
-                <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.coecis.cornell.edu/bt277/cs3110-proj"
-                >
-                  {"GitHub"}
-                </Button>
+                • Computer Science Department | Discrete Mathematics | Prof. Ansaf Salleb-Aouissi
+                <br /> Developed coursework and guided students with problems on proofs, sets, graph theory and more.
+                <br /> <br />
+                • Physics Department | Physics for Poets | Prof. Szabolcs Marka
+                <br /> Created courseworks to introduce modern physics concepts, from quantum mechanics to cosmology.
+                <br /> <br />
               </p>
             </Col>
           </Row>
-          <Row className="player-wrapper justify-content-center">
-            <ReactPlayer
-              className="react-player"
-              url="video/anagrams_demo.mp4"
-              controls={false}
-              loop
-              playing
-            />
+                    
+          <br />
+                    
+          <Row className="pt-4">
+            <Image src={classes} roundedCircle height="150px" />
+
+            <Col>
+              <p className="title"> Courses </p>
+              <p className="letter">
+                • Computer Science Department: Artificial Intelligence | Computer Vision | Natural Language Processing | Machine Learning | Computational Robotics | Databases | Data Structures
+                <br /> <br />
+                • Math & Physics Departments: Multi-Variable Calculus | Linear Algebra | Ordinary & Partial Differential Equations | Complex Variables | Accelerated Physics | Mechanics | Electricity & Magneticism
+                <br /> <br />
+              </p>
+            </Col>
           </Row>
 
           <br />
 
           <Row className="pt-4">
-            <Image src={wholesome} height="150px" width="150px" />
+            <Image src={rtc} roundedCircle height="150px" />
+
             <Col>
-              <p className="title">QUOLESOMENESS - WHOLESOME QUOTES FINDER</p>
+              <p className="title"> Rewriting The Code </p>
               <p className="letter">
-                An information retrieval system to find personalized wholesome
-                quotes based on categories, emotion, and your input text,
-                integrating the Latent Semantic Indexing (LSI) Model, sentiment
-                analysis, Wordnet word embeddings, pointwise mutual information
-                (PMI) for tags merging, etc.
-                <br />
-                <br />
-                Built with ReactJS, Python (information retrieval system), and
-                Heroku.
+                Attend workshops and social networking events for Women in Computer Science.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://github.com/anya-ji/quolesomeness"
+                  href="https://rewritingthecode.org/?utm_source=adwords&utm_medium=ppc&utm_campaign=cBC%20-%20Branded&utm_term=rewriting%20the%20code&hsa_acc=6694899998&hsa_cam=19866510712&hsa_grp=150229457027&hsa_ad=652085058848&hsa_src=g&hsa_tgt=kwd-879003061187&hsa_kw=rewriting%20the%20code&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwvKi4BhABEiwAH2gcw_KrNYRwzmQ_VdzKsn1dF_Cb0yPMR84jBOgOlZ1Eznean2iEbbfBhxoCfywQAvD_BwE"
                 >
-                  {"GitHub"}
+                  {"RTC"}
                 </Button>
               </p>
             </Col>
           </Row>
-          <br />
-          <Row className="player-wrapper justify-content-center">
-            <Image src={quolesomeness} height="400px" />
-          </Row>
-
-          <br />
-
-          <Row className="pt-4">
-            <Image src={booksmart} roundedCircle height="150px" width="150px" />
-            <Col>
-              <p className="title">BOOKSMART - BOOK EXCHANGE</p>
-              <p className="letter">
-                An iOS app for selling and purchasing second-hand textbooks on
-                campus.
-                <br />
-                <br />
-                Built with UIKit, Firestore, SQLite3, Amazon S3, and Heroku.
-                <br />
-                {/* Lead a team of 6 with a designer and developers and work on both
-                iOS and backend.
-                <br />
-                Use UIKit to create informative yet easy-to-navigate UI; support
-                real-time messaging with Firestore; create efficient relational
-                database models of user and book information with SQLite3; store
-                images on Amazon S3, and deploy the database using Docker and
-                Heroku.
-                <br /> */}
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.coecis.cornell.edu/bt277/cs3110-proj"
-                >
-                  {"GitHub"}
-                </Button>
-              </p>
-            </Col>
-          </Row>
-          <br />
-          <Row className="player-wrapper justify-content-center">
-            <Image src={booksmart_demo} height="500px" />
-          </Row>
+          <br />          
+                    
         </Col>
       </Container>
     );
@@ -415,7 +254,7 @@ class Content extends Component {
       <Container fluid className="App">
         <Col xs={8}>
           <Row className="pt-4">
-            <Image src={amp} roundedCircle height="150px" width="150px" />
+            <Image src={alyssano} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
                 Research Assistant & Lab Manager @ Alyssano Group
@@ -456,7 +295,7 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
-            <Image src={aclab} roundedCircle height="150px" width="150px" />
+            <Image src={paris} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
                 Global Neuroscience Scholar @ Columbia Summer Practicum
@@ -520,7 +359,7 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
-            <Image src={aclab} roundedCircle height="150px" width="150px" />
+            <Image src={cambridge_logo} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
                 Global Research Scholar @ Columbia Summer Practicum
@@ -564,6 +403,27 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
+            <Image src={greymatters} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                Scientific Review Editor @ Grey Matters Journal
+              </p>
+              <p className="letter">
+                <br /> • Scientific Edition: Verified scientific integrity and validity of articles submitted to journal.
+                <br /> • Collaborative Publishing: Co-authored article on Integrated Information Theory of Consciousness.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://www.greymattersjournalcu.org/"
+                >
+                  {"Grey Matters Journal Columbia"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
             <Image src={psichi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
@@ -585,7 +445,7 @@ class Content extends Component {
           </Row>
           
           <Row className="pt-4">
-            <Image src={music} roundedCircle height="150px" width="150px" />
+            <Image src={davachi} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
                 Research Assistant @ Davachi Lab
@@ -614,7 +474,7 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
-            <Image src={music} roundedCircle height="150px" width="150px" />
+            <Image src={classes} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
                 Courses
@@ -628,6 +488,25 @@ class Content extends Component {
                 <br /> •  Consciousness and Attention with Prof. Alfredo Spagna
                 <br /> •  Evolutionary Psychology with Prof. Ian Lawrence Reed
                 <br /> <br />
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Image src={neurotech} roundedCircle height="150px" />
+
+            <Col>
+              <p className="title"> Neurotech X Columbia </p>
+              <p className="letter">
+                Attend project workshops and social networking events in the field of neurotechnology.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://www.neurotechxcolumiauniversity.com/"
+                >
+                  {"Neurotech X Columbia"}
+                </Button>
               </p>
             </Col>
           </Row>
