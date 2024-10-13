@@ -25,13 +25,13 @@ class Content extends Component {
             Computer Science and Psychology.
             <br />
             <br />
-            Academically, I'm so fascinated about the brain. 
+            Academically, I'm so fascinated by the brain. 
             I want to understand the cognitive mechanism behind our perception of time
             and how we segment our continuous experience into discrete events.
             <br />
             <br />
-            I'm also passionate about math and building a computational model 
-            of state transitions in the brain.
+            I'm also passionate about math and computationally modeling
+            state transitions in the brain.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -46,7 +46,7 @@ class Content extends Component {
               rel="noreferrer noopener"
             >
               Hidden Markov Model
-            </a>{" "}
+            </a>
             , advised by Prof.{" "}
             <a
               href={"https://www.chrisbaldassano.com/about.html"}
@@ -78,19 +78,21 @@ class Content extends Component {
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
-            {"/tutoring"}
+            {"/scholarship"}
           </p>
 
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            I enjoy teaching and have been tutoring an introductory course in AI with{" "}
+            • In 2016, I joined{" "}
             <a
               href={"https://www.inspiritai.com/"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              Inspirit AI
+              Takatuf Scholars
             </a>{" "}
-            to elementary and middle-school students.
+            , a competitive program in Oman that prepares youth for personal and professional success.
+            <br /> <br /> 
+            • I was selected as 1 of 2 students nationally to receive a full-ride scholarship to study abroad in boarding school and college.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -261,11 +263,12 @@ class Content extends Component {
               <p className="letter">
                 • Research:
                 <br />
-                &emsp; - Advised by Prof. Mariam Aly @ UC Berkeley and Prof. Chris Baldassano @ Columbia.
+                &emsp; - Advised by Prof. Chris Baldassano @ Columbia & Prof. Mariam Aly @ UC Berkeley.
                 <br />
                 &emsp; - Led a research project on the fine-tuning and chunking of events in repeated naturalistic stimuli (movies) using an Event Segmentation Hidden Markov Model.
                 <br /> <br />
                 • Administration:
+                <br />
                 &emsp; - Oversee two labs, managing IRB protocols, subject recruitment and website maintenance.
                 <br />
                 <Button
@@ -302,14 +305,14 @@ class Content extends Component {
               </p>
               <p className="letter">
                 • Lab Rotations: 
-                <br /> Rotated through leading labs at Paris Brain Institute ( {" "}
+                Rotated through leading labs at Paris Brain Institute (
                 <a
                   href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/picnic-neuropsychology-and-functional-neuroimaging"}
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   PICNIC
-                </a>{" "}
+                </a>
                 ,{" "}
                 <a
                   href={"https://www.movit.paris/teams/dream-team-sleep-dreams-and-cognition"}
@@ -317,7 +320,7 @@ class Content extends Component {
                   rel="noreferrer noopener"
                 >
                   DreamTeam
-                </a>{" "}
+                </a>
                 ,{" "}
                 <a
                   href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/frontlab-system-functions-and-malfunctions"}
@@ -325,7 +328,7 @@ class Content extends Component {
                   rel="noreferrer noopener"
                 >
                   FrontLab
-                </a>{" "}
+                </a>
                 ,{" "}
                 <a
                   href={"https://www.aramislab.fr/"}
@@ -341,10 +344,8 @@ class Content extends Component {
                 >
                   Alfredo Spagna
                 </a>.
-                <br /> • Scientific Discussion:
-                <br /> Connected with leading scientists and engageg in weekly immersive discussions.
-                <br /> • Brain Measurement:
-                <br /> Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS).
+                <br /> • Scientific Discussion: Connected with leading scientists and engageg in weekly immersive discussions.
+                <br /> • Brain Measurement: Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS).
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
