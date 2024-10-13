@@ -10,6 +10,7 @@ import cambridge_logo from "./assets/cambridge_logo.png";
 import greymatters from "./assets/greymatters.png";
 import davachi from "./assets/davachi1.png";
 import neurotech from "./assets/neurotech.png";
+import psichi from "./assets/psichi.png";
 
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -38,15 +39,15 @@ class Content extends Component {
           </p>
 
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            • I've been working with an{" "}
+            I've been researching Event Timescale Changes with an Event Segmentation{" "}
             <a
               href={"https://naturalistic-data.org/content/Event_Segmentation.html"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              Event Segmentation Hidden Markov Model
+              Hidden Markov Model
             </a>{" "}
-            at Columbia University and UC Berkeley advised by Prof.{" "}
+            , advised by Prof.{" "}
             <a
               href={"https://www.chrisbaldassano.com/about.html"}
               target="_blank"
@@ -54,35 +55,26 @@ class Content extends Component {
             >
               Chris Baldassano
             </a>{" "}
-            and Prof.{" "}
+            at Columbia University and Prof.{" "}
             <a
               href={"https://www.alylab.org/mariam"}
               target="_blank"
               rel="noreferrer noopener"
             >
               Mariam Aly
-            </a>{" "}.
-            <br />
-            &emsp; - I delivered a talk for {" "}
-            <a
-              href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              the Society of Neuroscience Conference 2024
             </a>{" "}
-            on 
-            <a
+            at UC Berkeley.
+            <br />
+            &emsp; - I delivered a{" "}<a
               href={"https://github.com/narjes-al/Budapest-TimescaleChanges"}
               target="_blank"
               rel="noreferrer noopener"
             >
-              {" "}
-              The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli
+              talk
             </a>{" "}
-            .
+            at the Society of Neuroscience Conference 2024 on "The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli".
             <br />
-            &emsp; - I'm also aiming to study predictive mechanisms in the brain.
+            &emsp; - I'm currently working on a preprint.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -90,7 +82,7 @@ class Content extends Component {
           </p>
 
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            • I enjoy teaching and have tutored an introductory course in AI with{" "}
+            I enjoy teaching and have been tutoring an introductory course in AI with{" "}
             <a
               href={"https://www.inspiritai.com/"}
               target="_blank"
@@ -98,7 +90,7 @@ class Content extends Component {
             >
               Inspirit AI
             </a>{" "}
-            to elementary school and middle school students in NYC.
+            to elementary and middle-school students.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -106,7 +98,7 @@ class Content extends Component {
           </p>
 
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            In my free time, I enjoy climbing, reading and watching TV. :)
+            In my free time, I love to climb, read and watch TV. :)
             <br />
             <br />
             [Last updated: Oct.2024]
@@ -135,14 +127,14 @@ class Content extends Component {
             <Col>
               <p className="title">Event Segmentation Hidden Markov Model</p>
               <p className="letter">
-                HMM-based research project advised by Prof. Chris Baldassano at the Columbia Dynamic Perception
+                • HMM-based research project advised by Prof. Chris Baldassano at the Columbia Dynamic Perception
                 and Memory Lab and Prof. Mariam Aly at the UC Berkeley Aly Lab.
+                <br /> <br />
+                • Investigated changes in the timescale of events in the brain using repeated movie viewing.
                 <br />
-                Looked for timescale changes in the brain with repeated movie viewing using the HMM model across searchlights in the brain.
+                • Conducted statistical analysis with well-defined metrics using libraries like Brainiak, nibabel, sklearn & deepdish.
                 <br />
-                Conducted statistical analysis with well-defined metrics using Brainiak.
-                <br />
-                My first-authored paper delivered as a talk in the Long-Term Memory Nanosymposium at the Society for Neuroscience Conference (Oct, 2024).
+                • Currently writing my first-authored paper, delivered as a talk in the Long-Term Memory Nanosymposium at the Society for Neuroscience Conference (Chicago, Oct 2024).
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -200,10 +192,10 @@ class Content extends Component {
             <Col>
               <p className="title">Teaching Assistance </p>
               <p className="letter">
-                • Computer Science Department | Discrete Mathematics | Prof. Ansaf Salleb-Aouissi
+                • Discrete Mathematics Class with Prof. Ansaf Salleb-Aouissi:
                 <br /> Developed coursework and guided students with problems on proofs, sets, graph theory and more.
                 <br /> <br />
-                • Physics Department | Physics for Poets | Prof. Szabolcs Marka
+                • Physics for Poets Class with Prof. Szabolcs Marka:
                 <br /> Created courseworks to introduce modern physics concepts, from quantum mechanics to cosmology.
                 <br /> <br />
               </p>
@@ -218,9 +210,11 @@ class Content extends Component {
             <Col>
               <p className="title"> Courses </p>
               <p className="letter">
-                • Computer Science Department: Artificial Intelligence | Computer Vision | Natural Language Processing | Machine Learning | Computational Robotics | Databases | Data Structures
+                • Computer Science Department:
+                <br /> Artificial Intelligence | Computer Vision | Natural Language Processing | Machine Learning | Computational Robotics | Databases | Data Structures
                 <br /> <br />
-                • Math & Physics Departments: Multi-Variable Calculus | Linear Algebra | Ordinary & Partial Differential Equations | Complex Variables | Accelerated Physics | Mechanics | Electricity & Magneticism
+                • Math & Physics Departments:
+                <br /> Multi-Variable Calculus | Linear Algebra | Ordinary & Partial Differential Equations | Complex Variables | Accelerated Physics | Mechanics | Electricity & Magneticism
                 <br /> <br />
               </p>
             </Col>
@@ -234,7 +228,7 @@ class Content extends Component {
             <Col>
               <p className="title"> Rewriting The Code </p>
               <p className="letter">
-                Attend workshops and social networking events for Women in Computer Science.
+                Attend workshops and social networking events for women in Computer Science.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -261,15 +255,18 @@ class Content extends Component {
             <Image src={alyssano} roundedCircle height="150px" width="150px" />
             <Col>
               <p className="title">
-                Research Assistant & Lab Manager @ Alyssano Group (Oct.2023 - Now)
+                Research Assistant & Lab Manager @ Alyssano Group
+                <br /> (Oct 2023 - Now)
               </p>
               <p className="letter">
-                Worked on event segmentation, advised by Prof. Mariam Aly @ UC Berkeley and Prof. Chris Baldassano @ Columbia.
-                <br /> Led a research on the fine-tuning and chunking of events in repeated naturalistic stimuli.
-                <br /> Used a hidden markov event segmentation model and the Budapest dataset.
-                <br /> • Administration: Oversee two labs, managing IRB protocols, subject recruitment and website maintenance.
-                <br /> • Research: Conduct research on Changes in Event Timescales using naturalistic stimuli (movies) and Event
-                Segmentation analysis based on Hidden Markov Models.
+                • Research:
+                <br />
+                &emsp; - Advised by Prof. Mariam Aly @ UC Berkeley and Prof. Chris Baldassano @ Columbia.
+                <br />
+                &emsp; - Led a research project on the fine-tuning and chunking of events in repeated naturalistic stimuli (movies) using an Event Segmentation Hidden Markov Model.
+                <br /> <br />
+                • Administration:
+                &emsp; - Oversee two labs, managing IRB protocols, subject recruitment and website maintenance.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -301,12 +298,53 @@ class Content extends Component {
             <Col>
               <p className="title">
                 Global Neuroscience Scholar @ Columbia Summer Practicum
-                (Paris Brain Institute (ICM) & Columbia Global Center, Summer 2023)
+                <br /> (Paris Brain Institute, Summer 2023)
               </p>
               <p className="letter">
-                • Lab Rotations: Rotated through leading labs at Paris Brain Institute.
-                <br /> • Scientific Discussion: Connected with leading scientists like Lionel Naccache and Bassem Hassan.
-                <br /> • Brain Measurement: Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS).
+                • Lab Rotations: 
+                <br /> Rotated through leading labs at Paris Brain Institute ( {" "}
+                <a
+                  href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/picnic-neuropsychology-and-functional-neuroimaging"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  PICNIC
+                </a>{" "}
+                ,{" "}
+                <a
+                  href={"https://www.movit.paris/teams/dream-team-sleep-dreams-and-cognition"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  DreamTeam
+                </a>{" "}
+                ,{" "}
+                <a
+                  href={"https://parisbraininstitute.org/paris-brain-institute-research-teams/frontlab-system-functions-and-malfunctions"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  FrontLab
+                </a>{" "}
+                ,{" "}
+                <a
+                  href={"https://www.aramislab.fr/"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  ARAMIS
+                </a>), guided by Prof.{" "}
+                <a
+                  href={"http://www.alfredospagna.com/"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Alfredo Spagna
+                </a>.
+                <br /> • Scientific Discussion:
+                <br /> Connected with leading scientists and engageg in weekly immersive discussions.
+                <br /> • Brain Measurement:
+                <br /> Gained knowledge and practical skills in diverse brain measuring techniques (e.g. MRI, EEG, TMS).
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -324,12 +362,14 @@ class Content extends Component {
             <Col>
               <p className="title">
                 Global Research Scholar @ Columbia Summer Practicum
-                (Cambridge, UK - Summer 2022)
+                <br /> (Cambridge, UK - Summer 2022)
               </p>
               <p className="letter">
                 • Research Design: Designed novel experiment to study positive deviance in 36 countries.
                 <br />
-                • Data Analysis: Utilized various statistical methods (e.g. chi-square, ANOVA, Bayesian Model Averaging).
+                • Data Analysis: Utilized various statistical methods (e.g. chi-square, ANOVA, multinomial logistic regression, Bayesian Model Averaging), to process and analyze vast, international data set.
+                <br /> • Collaboration: Collaborated with international team to dissect literature and refine research direction.
+                <br /> • Publication: Authored and published two papers on positive deviance and cognitive biases.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -349,7 +389,8 @@ class Content extends Component {
                 Scientific Review Editor @ Grey Matters Journal
               </p>
               <p className="letter">
-                • Scientific Edition: Verified scientific integrity and validity of articles.
+                • Scientific Review: Verified scientific integrity and validity of articles.
+                <br /> • Collaborative Publishing: Co-authored article on Integrated Information Theory of Consciousness.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -371,7 +412,7 @@ class Content extends Component {
               </p>
               <p className="letter">
                 • Menteeship: Worked with postdoc Amir Tal, studying Unconscious Memory Relearning.
-                <br /> • Subject Recruitment & Eye-Tracking: Proctored experiments with student subjects using eye-tracking technology.
+                <br /> • Subject Recruitment & Eye-Tracking: Proctored experiments with student subjects using eye-tracking.
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -385,7 +426,27 @@ class Content extends Component {
           </Row>
 
           <Row className="pt-4">
-            <Image src={neurotech} roundedCircle height="150px" />
+            <Image src={psichi} roundedCircle height="150px" width="150px" />
+            <Col>
+              <p className="title">
+                Member @ Psi Chi, the International Honors Society in Psychology
+              </p>
+              <p className="letter">
+                Attend grad school workshops and social networking events in the field of psychology.
+                <br />
+                <Button
+                  className="mt-4 mr-4 letter"
+                  variant="outline-light"
+                  href="https://psychology.columbia.edu/content/columbia-university-psi-chi-honors-society"
+                >
+                  {"Psi Chi Columbia"}
+                </Button>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Image src={neurotech} roundedCircle height="150px" width="150px" />
 
             <Col>
               <p className="title"> Neurotech X Columbia </p>
