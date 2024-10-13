@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import seg from "./assets/seg.png";
 import inspirit from "./assets/inspirit.png";
-import teaching1 from "./assets/teaching1.png";
+import teaching1 from "./assets/teaching2.png";
 import classes from "./assets/classes.png";
 import rtc from "./assets/rtc.png";
 import alyssano from "./assets/alyssano.png";
 import paris from "./assets/paris.png";
 import cambridge_logo from "./assets/cambridge_logo.png";
 import greymatters from "./assets/greymatters.png";
-import davachi from "./assets/davachi.png";
+import davachi from "./assets/davachi1.png";
 import neurotech from "./assets/neurotech.png";
 
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
@@ -61,8 +61,8 @@ class Content extends Component {
               rel="noreferrer noopener"
             >
               Mariam Aly
-            </a>{" "}
-            . <br />
+            </a>{" "}.
+            <br />
             &emsp; - I delivered a talk for {" "}
             <a
               href={"https://www.youtube.com/watch?v=hCmX8ZFIVf8"}
@@ -86,7 +86,7 @@ class Content extends Component {
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
-            {"/Tutoring"}
+            {"/tutoring"}
           </p>
 
           <p className="letter hidden" style={{ textAlign: "left" }}>
