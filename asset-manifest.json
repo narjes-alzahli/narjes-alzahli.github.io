@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.fd230b0f.css",
-    "main.js": "/static/js/main.ba615521.js",
+    "main.js": "/static/js/main.a50e34e4.js",
     "static/media/alyssano.png": "/static/media/alyssano.37508b8fec152fae5c40.png",
     "static/media/cambridge_logo.png": "/static/media/cambridge_logo.3a5f15366e38d322cc2f.png",
     "static/media/seg.png": "/static/media/seg.86f6fb2988a329e77852.png",
-    "static/media/davachi1.png": "/static/media/davachi1.372a7667de2b5a00f59d.png",
+    "static/media/davachi1.png": "/static/media/davachi1.b46d2cc326930cc3255e.png",
     "static/media/head.jpg": "/static/media/head.5132e73c49057e7811ad.jpg",
     "static/media/greymatters.png": "/static/media/greymatters.e9c7562091868667687f.png",
     "static/media/paris.png": "/static/media/paris.cd3533a92c4e0b7b88e0.png",
@@ -20,10 +20,10 @@
     "static/media/gmail.png": "/static/media/gmail.43f938a985bbdf1bba64.png",
     "index.html": "/index.html",
     "main.fd230b0f.css.map": "/static/css/main.fd230b0f.css.map",
-    "main.ba615521.js.map": "/static/js/main.ba615521.js.map"
+    "main.a50e34e4.js.map": "/static/js/main.a50e34e4.js.map"
   },
   "entrypoints": [
     "static/css/main.fd230b0f.css",
-    "static/js/main.ba615521.js"
+    "static/js/main.a50e34e4.js"
   ]
 }
