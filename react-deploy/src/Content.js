@@ -25,13 +25,13 @@ class Content extends Component {
             Computer Science and Psychology.
             <br />
             <br />
-            Academically, I'm so fascinated by the brain. 
+            Academically, I'm so puzzled by the brain. 
             I want to understand the cognitive mechanism behind our perception of time
             and how we segment our continuous experience into discrete events.
             <br />
             <br />
-            I'm also passionate about math and computationally modeling
-            state transitions in the brain.
+            I'm also passionate about math and building computational models
+            to understand the brain.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -72,7 +72,7 @@ class Content extends Component {
             >
               talk
             </a>{" "}
-            at the Society of Neuroscience Conference 2024 on "The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli".
+            at the Society for Neuroscience Conference 2024 on "The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli".
             <br />
             &emsp; - I'm currently working on a preprint.
           </p>
@@ -89,10 +89,9 @@ class Content extends Component {
               rel="noreferrer noopener"
             >
               Takatuf Scholars
-            </a>{" "}
-            , a competitive program in Oman that prepares youth for personal and professional success.
+            </a>, a competitive program in Oman that prepares youth for personal and professional success.
             <br /> <br /> 
-            • I was selected as 1 of 2 students nationally to receive a full-ride scholarship to study abroad in boarding school and college.
+            • I was fortunate to be selected as 1 of the 2 students nationally to receive a full-ride scholarship to study overseas for boarding school and college.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -105,14 +104,14 @@ class Content extends Component {
             <br />
             [Last updated: Oct.2024]
             <br />
-             Template from {" "}
+             [Template from {" "}
             <a
               href={"https://anya-ji.github.io/"}
               target="_blank"
               rel="noreferrer noopener"
             >
               Anya Ji
-            </a>{" "}
+            </a>]
           </p>
                 
         </Col>
@@ -136,7 +135,7 @@ class Content extends Component {
                 <br />
                 • Conducted statistical analysis with well-defined metrics using libraries like Brainiak, nibabel, sklearn & deepdish.
                 <br />
-                • Currently writing my first-authored paper, delivered as a talk in the Long-Term Memory Nanosymposium at the Society for Neuroscience Conference (Chicago, Oct 2024).
+                • Currently writing my first-authored paper, delivered as a talk in the Long-Term Memory Nanosymposium at SfN (Chicago, Oct 2024).
                 <br />
                 <Button
                   className="mt-4 mr-4 letter"
@@ -265,19 +264,12 @@ class Content extends Component {
                 <br />
                 &emsp; - Advised by Prof. Chris Baldassano @ Columbia & Prof. Mariam Aly @ UC Berkeley.
                 <br />
-                &emsp; - Led a research project on the fine-tuning and chunking of events in repeated naturalistic stimuli (movies) using an Event Segmentation Hidden Markov Model.
+                &emsp; - Led a research project on the fine-tuning and chunking of events in repeated naturalistic stimuli (movies) using an Event Segmentation Hidden Markov Model (more can be found under the computer science section).
                 <br /> <br />
                 • Administration:
                 <br />
                 &emsp; - Oversee two labs, managing IRB protocols, subject recruitment and website maintenance.
                 <br />
-                <Button
-                  className="mt-4 mr-4 letter"
-                  variant="outline-light"
-                  href="https://github.com/narjes-al/Budapest-TimescaleChanges"
-                >
-                  {"GitHub/Timescale-Changes"}
-                </Button>
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
@@ -295,6 +287,8 @@ class Content extends Component {
               </p>
             </Col>
           </Row>
+
+          <br />
 
           <Row className="pt-4">
             <Image src={paris} roundedCircle height="150px" width="150px" />
@@ -358,6 +352,8 @@ class Content extends Component {
             </Col>
           </Row>
 
+          <br />
+
           <Row className="pt-4">
             <Image src={cambridge_logo} roundedCircle height="150px" width="150px" />
             <Col>
@@ -383,6 +379,8 @@ class Content extends Component {
             </Col>
           </Row>
 
+          <br />
+
           <Row className="pt-4">
             <Image src={greymatters} roundedCircle height="150px" width="150px" />
             <Col>
@@ -403,6 +401,8 @@ class Content extends Component {
               </p>
             </Col>
           </Row>
+
+          <br />
 
           <Row className="pt-4">
             <Image src={davachi} roundedCircle height="150px" width="150px" />
@@ -426,6 +426,8 @@ class Content extends Component {
             </Col>
           </Row>
 
+          <br />
+
           <Row className="pt-4">
             <Image src={psichi} roundedCircle height="150px" width="150px" />
             <Col>
@@ -445,6 +447,8 @@ class Content extends Component {
               </p>
             </Col>
           </Row>
+
+          <br />
 
           <Row className="pt-4">
             <Image src={neurotech} roundedCircle height="150px" width="150px" />
