@@ -21,17 +21,17 @@ class Content extends Component {
       <Container fluid className="App">
         <Col xs={12} md={5}>
           <p className="letter hidden" style={{ textAlign: "left" }}>
-            <br />I graduated from Columbia University in 2023 with B.A. in
-            Computer Science and Psychology.
+            <br />I graduated from Columbia University in 2023 with a B.A. in
+            Computer Science and Cogntive Science.
             <br />
             <br />
-            Personally, I'm so puzzled by the brain. 
+            I've always been so puzzled by the brain. 
             I want to understand the cognitive mechanism behind our perception of time
             and how we segment our continuous experience into discrete events.
             <br />
             <br />
             I also love math and hope to use it to build computational models
-            that help explain how the brain works.
+            of the brain and its internal states.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>

@@ -112,7 +112,7 @@ class App extends Component {
               }}
             >
               <Image className="m-3" src={brain} height="100px" />
-              <p>Psychology</p>
+              <p>Cognitive Science</p>
             </Button>
           </Row>
 
