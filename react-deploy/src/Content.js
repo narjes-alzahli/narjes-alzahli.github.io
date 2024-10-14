@@ -91,7 +91,7 @@ class Content extends Component {
               Takatuf Scholars
             </a>, a competitive program in Oman that prepares youth for personal and professional success.
             <br /> <br /> 
-            • I was fortunate to be selected as 1 of the 2 students nationally to receive a full-ride scholarship to study overseas for boarding school and college.
+            • I was fortunate to be selected as 1 of 2 students nationally to receive a full-ride scholarship to study overseas for boarding school and college.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
