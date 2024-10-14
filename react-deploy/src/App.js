@@ -51,7 +51,7 @@ class App extends Component {
           </Row>
 
           <Row className="justify-content-md-center">
-            <a href="https://github.com/narjes-al">
+            <a href="https://github.com/narjes-alzahli">
               <Image
                 className="m-3 click"
                 src={github}

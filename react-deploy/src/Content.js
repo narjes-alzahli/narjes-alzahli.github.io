@@ -66,7 +66,7 @@ class Content extends Component {
             at UC Berkeley.
             <br />
             &emsp; - I delivered a{" "}<a
-              href={"https://github.com/narjes-al/Budapest-TimescaleChanges"}
+              href={"https://github.com/narjes-alzahli/Budapest-TimescaleChanges"}
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -147,7 +147,7 @@ class Content extends Component {
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://github.com/narjes-al/Budapest-TimescaleChanges"
+                  href="https://github.com/narjes-alzahli/Budapest-TimescaleChanges"
                 >
                   {"GitHub"}
                 </Button>
