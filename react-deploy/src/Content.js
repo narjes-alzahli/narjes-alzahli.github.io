@@ -25,13 +25,13 @@ class Content extends Component {
             Computer Science and Psychology.
             <br />
             <br />
-            Academically, I'm so puzzled by the brain. 
+            Personally, I'm so puzzled by the brain. 
             I want to understand the cognitive mechanism behind our perception of time
             and how we segment our continuous experience into discrete events.
             <br />
             <br />
-            I'm also passionate about math and building computational models
-            to understand the brain.
+            I also love math and hope to use it to build computational models
+            that help explain how the brain works.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -72,7 +72,7 @@ class Content extends Component {
             >
               talk
             </a>{" "}
-            at the Society for Neuroscience Conference 2024 on "The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli".
+            at the Society for Neuroscience Conference (Chicago, 2024) on "The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli".
             <br />
             &emsp; - I'm currently working on a preprint.
           </p>
