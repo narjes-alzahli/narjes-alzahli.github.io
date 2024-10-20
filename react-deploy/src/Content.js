@@ -26,12 +26,15 @@ class Content extends Component {
             <br />
             <br />
             I've always been so puzzled by the brain. 
-            I want to understand the cognitive mechanism behind our perception of time
+            I wish to understand the cognitive mechanism behind our perception of time
             and how we segment our continuous experience into discrete events.
             <br />
             <br />
             I also love math and hope to use it to build computational models
-            of the brain and its internal states.
+            of the brain's internal states.
+            <br />
+            <br />
+            Beneath all, I lead my life with compassion, curiosity and intention.
           </p>
 
           <p className="title hidden" style={{ textAlign: "left" }}>
@@ -47,7 +50,7 @@ class Content extends Component {
             >
               Hidden Markov Model
             </a>
-            , advised by Prof.{" "}
+            using Naturalistic Stimuli, advised by Prof.{" "}
             <a
               href={"https://www.chrisbaldassano.com/about.html"}
               target="_blank"
@@ -66,13 +69,13 @@ class Content extends Component {
             at UC Berkeley.
             <br />
             &emsp; - I delivered a{" "}<a
-              href={"https://github.com/narjes-alzahli/Budapest-TimescaleChanges"}
+              href={"https://drive.google.com/file/d/1xPRrKdA4n6-kJ0NobDVz8bejojTYY_Gm/view?usp=sharing"}
               target="_blank"
               rel="noreferrer noopener"
             >
               talk
             </a>{" "}
-            at the Society for Neuroscience Conference (Chicago, 2024) on "The Fine-Tuning and Chunking of Events in Repeated Naturalistic Stimuli".
+            at the Society for Neuroscience Conference (Chicago, 2024).
             <br />
             &emsp; - I'm currently working on a preprint.
           </p>
@@ -84,7 +87,7 @@ class Content extends Component {
           <p className="letter hidden" style={{ textAlign: "left" }}>
             • In 2016, I joined{" "}
             <a
-              href={"https://www.inspiritai.com/"}
+              href={"https://www.takatufscholars.om/"}
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -102,16 +105,7 @@ class Content extends Component {
             In my free time, I love to climb, read and watch TV. :)
             <br />
             <br />
-            [Last updated: Oct.2024]
-            <br />
-             [Template from {" "}
-            <a
-              href={"https://anya-ji.github.io/"}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Anya Ji
-            </a>]
+            [Last updated: Oct 2024. Template from Anya Ji.]
           </p>
                 
         </Col>
@@ -130,7 +124,7 @@ class Content extends Component {
               <p className="letter">
                 • HMM-based research project advised by Prof. Chris Baldassano at the Columbia Dynamic Perception
                 and Memory Lab and Prof. Mariam Aly at the UC Berkeley Aly Lab.
-                <br /> <br />
+                <br /> 
                 • Investigated changes in the timescale of events in the brain using repeated movie viewing.
                 <br />
                 • Conducted statistical analysis with well-defined metrics using libraries like Brainiak, nibabel, sklearn & deepdish.
@@ -140,7 +134,8 @@ class Content extends Component {
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href={""}
+                  href={"https://drive.google.com/file/d/1xPRrKdA4n6-kJ0NobDVz8bejojTYY_Gm/view?usp=sharing"}
+                  target="_blank"
                 >
                   {"Paper"}
                 </Button>
@@ -148,6 +143,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://github.com/narjes-alzahli/Budapest-TimescaleChanges"
+                  target="_blank"
                 >
                   {"GitHub"}
                 </Button>
@@ -155,6 +151,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://brainiak.org/tutorials/12-hmm/"
+                  target="_blank"
                 >
                   {"HMM"}
                 </Button>
@@ -178,6 +175,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://www.inspiritai.com/"
+                  target="_blank"
                 >
                   {"Inspirit AI"}
                 </Button>
@@ -235,6 +233,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://rewritingthecode.org/?utm_source=adwords&utm_medium=ppc&utm_campaign=cBC%20-%20Branded&utm_term=rewriting%20the%20code&hsa_acc=6694899998&hsa_cam=19866510712&hsa_grp=150229457027&hsa_ad=652085058848&hsa_src=g&hsa_tgt=kwd-879003061187&hsa_kw=rewriting%20the%20code&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwvKi4BhABEiwAH2gcw_KrNYRwzmQ_VdzKsn1dF_Cb0yPMR84jBOgOlZ1Eznean2iEbbfBhxoCfywQAvD_BwE"
+                  target="_blank"
                 >
                   {"RTC"}
                 </Button>
@@ -274,6 +273,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://www.alylab.org/"
+                  target="_blank"
                 >
                   {"Aly Lab"}
                 </Button>
@@ -281,6 +281,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://www.dpmlab.org/"
+                  target="_blank"
                 >
                   {"Dynamic Perception & Memory Lab"}
                 </Button>
@@ -345,6 +346,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://global.undergrad.columbia.edu/gsp-hc"
+                  target="_blank"
                 >
                   {"Columbia Global Neuroscience"}
                 </Button>
@@ -372,6 +374,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://global.undergrad.columbia.edu/program/columbia-summer-research-practicum-global-behavioral-science-globes"
+                  target="_blank"
                 >
                   {"GLOBES"}
                 </Button>
@@ -395,6 +398,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://www.greymattersjournalcu.org/"
+                  target="_blank"
                 >
                   {"Grey Matters Journal Columbia"}
                 </Button>
@@ -409,7 +413,7 @@ class Content extends Component {
             <Col>
               <p className="title">
                 Research Assistant @ Davachi Lab
-                (May.2022 - Nov.2022)
+                (May 2022 - Nov 2022)
               </p>
               <p className="letter">
                 • Menteeship: Worked with postdoc Amir Tal, studying Unconscious Memory Relearning.
@@ -419,6 +423,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://davachilab.psychology.columbia.edu/"
+                  target="_blank"
                 >
                   {"CORE Lab"}
                 </Button>
@@ -440,7 +445,8 @@ class Content extends Component {
                 <Button
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
-                  href="https://psychology.columbia.edu/content/columbia-university-psi-chi-honors-society"
+                  href="https://www.instagram.com/cupsi_chi/"
+                  target="_blank"
                 >
                   {"Psi Chi Columbia"}
                 </Button>
@@ -462,6 +468,7 @@ class Content extends Component {
                   className="mt-4 mr-4 letter"
                   variant="outline-light"
                   href="https://www.neurotechxcolumiauniversity.com/"
+                  target="_blank"
                 >
                   {"Neurotech X Columbia"}
                 </Button>
